@@ -176,10 +176,15 @@
           {
             "label": "How the team operates",
             "body": "The TA Intelligence Book runs Monday to Friday at 07:00 CET on GitHub Actions and the Gemini API, publishing daily Talent Acquisition trend reports. A weekly content pipeline reads the week and ships one blog post, three LinkedIn posts, and five X threads every Sunday. Four people doing the work of a marketing team plus an analyst desk."
+          },
+          {
+            "label": "Press",
+            "body": "Featured by H-FARM College in April 2026: \"Beyond the CV: MARA, the platform born from the Challenges of H-FARM College\" — an editorial article on how MARA emerged from inside the H-FARM ecosystem and why challenge-based hiring beats résumés."
           }
         ],
         "credits": "Co-founders: Michele Gualano · Alessandro Della Rocca · Rita Zhubi · Alessandro Pio Alvigi · marachallenge.com",
         "metrics_highlight": [
+          "H-FARM College · featured article (Apr 2026)",
           "3 challenges · already hosted",
           "250 students · onboarded",
           "H-ACK Jakidale · Lux Collective · CX Napoli",
@@ -253,6 +258,11 @@
         },
         "gallery": [
           {
+            "src": "assets/mara/hfarm-article-cover.jpg",
+            "alt": "H-FARM College article — Beyond the CV: MARA",
+            "caption": "Featured in H-FARM College news, April 2026"
+          },
+          {
             "src": "assets/mara/stage-presentation.jpg",
             "alt": "Pitching MARA on stage with marachallenge.com and challenge cards visible",
             "caption": "Pitching the platform, challenge cards with team scores visible behind"
@@ -282,6 +292,11 @@
         ]
       },
       "links": [
+        {
+          "label": "H-FARM College feature · \"Beyond the CV\"",
+          "url": "https://college.h-farm.com/en/news/beyond-the-cv-mara-the-platform-born-from-the-challenges-of-h-farm-college/",
+          "primary": true
+        },
         {
           "label": "marachallenge.com",
           "url": "https://marachallenge.com",
@@ -1882,5 +1897,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-22T15:15:23.254296+00:00"
+  "last_updated": "2026-05-22T16:16:03.015533+00:00"
 }
