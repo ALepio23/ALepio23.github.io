@@ -1,0 +1,39 @@
+{
+  "application_name": "nAItive Fellowship — H-FARM Campus, Venice",
+  "application_url": "https://naitive.institute/",
+  "founder": "Leonid Boguslavsky (RTP Global — backed Datadog, Delivery Hero — and H-FARM founder)",
+  "deadline": null,
+  "format": "Six-month, fully-funded, equity-free fellowship for founders building AI-native companies. 20-founder cohort. On-campus at H-FARM, Venice.",
+  "stage_structure": "Application + AI-led async conversation → focused challenge → 2-step interview with admission committee",
+  "submitted_artifacts_required": ["Portfolio URL", "CV", "Stage 1 questionnaire (one-shot, no edit)"],
+  "what_they_evaluate": [
+    "What you've built OR what you're building",
+    "Personal competitive advantage — what you can do or see that most people in your field can't",
+    "Deep domain knowledge in a specific problem area",
+    "Unusual skill combination creating unique vantage points",
+    "Pattern of autonomous action showing outsized results",
+    "How AI changes your thinking (per stage 2 challenge)"
+  ],
+  "what_they_emphasize": [
+    "Capability over credentials — 'capability, not potential or credentials'",
+    "Evidence over polish — 'The bar is evidence, not perfection. Customers if you have them. Traction if you don't. Always the truth.'",
+    "Founders who 'see it too' — execution is becoming abundant, clarity is scarce",
+    "Comfort with operating phases: Discover → Define → Pretotype → Build → Execute → Scale (2-week gates)",
+    "Hybrid stacks: Tech (multi-agent, LLM eng), Business (term sheets, sales, hiring), Human (communication, emotional clarity, creative thinking)",
+    "Founder seriousness — they want people who could be running a company in 6 months"
+  ],
+  "target_persona": "Founder building (or already running) an AI-native venture with an unusual skill combination and a track record of autonomous output. Domain doesn't have to be technical-only — communication, product, design, business are all valid IF combined with AI-native fluency and execution.",
+  "audience_register": "Direct, evidence-led, no fluff. The voice on the site is serif + monospace eyebrows + orange accent — confident, intellectually serious, not corporate. Match it: portfolio should read like a builder talking, not a candidate selling.",
+  "review_format": "Stage 1 application (portfolio URL + CV + scored questionnaire, one-shot) → AI async conversation → challenge exercise → 2-step committee interview",
+  "test_or_followup": "Yes — focused challenge in stage 2 evaluating reasoning and how AI changes your thinking",
+  "competitive_density": "Highly selective — 20 cohort, fully funded",
+  "alessandro_fit_thesis": "Strong. Already inside the H-FARM ecosystem (MSc + MARA in H-FARM Startup Center Pre-Accelerator). MARA is itself an AI-relevant marketplace play. Impact Puglia is direct AI-native comms work. The 'unusual skill combination' criterion is where his profile genuinely sings: communication-trained founder who can also ship product and integrate AI, with one foot in the H-FARM venture stack already.",
+  "narrative_pivots_for_naitive": [
+    "Lead with what he's BUILDING (MARA) — present tense, not retrospective",
+    "Frame the comms-native origin as the COMPETITIVE EDGE, not the CV order",
+    "Show pattern of autonomous action: 5 distinct shipped projects in ~18 months, across product/AI/comms/events",
+    "Make the AI-native frame explicit: Impact Puglia + MARA's product surface + the master's program all sit on AI infrastructure",
+    "Connect H-FARM ecosystem fluency — he's already operating there, fellowship would deepen not introduce"
+  ],
+  "personal_notes": "Voice register chosen: founder/entrepreneurial. NAITIVE's voice is even sharper than that — closer to operator-direct. Calibrate one notch sharper than initial pass."
+}

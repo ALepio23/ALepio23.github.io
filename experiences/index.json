@@ -1,0 +1,144 @@
+{
+  "experiences": [
+    {
+      "id": "mara",
+      "title": "MARA — co-founder & communication",
+      "type": "project",
+      "role": "Co-founder, Communication Specialist",
+      "context": "H-FARM Startup Center Pre-Accelerator (selected)",
+      "period": {"from": "2025-09", "to": "present"},
+      "one_line_description": "Online platform bridging companies and students through hackathon-style challenges.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "MARA — Co-founder and Communication Specialist | START UP CENTER. Online platform bridging companies and students through hackathon-style challenges. Selected for the H-FARM Startup Center Pre-Accelerator."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "hero",
+      "notes": "Flagship project — this is the founder positioning. Needs deck, screenshots, brand assets, founding team credits, traction numbers if any."
+    },
+    {
+      "id": "cassini-hackathon",
+      "title": "CASSINI Hackathon Italy — 10th edition",
+      "type": "project",
+      "role": "Team member (hackathon participant)",
+      "context": "H-FARM, Italy — EU competition (Copernicus & Galileo satellite data)",
+      "period": {"from": "2025-10", "to": "2025-10"},
+      "one_line_description": "48h EU competition designing consumer experience apps using Copernicus & Galileo satellite data.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "10th CASSINI Hackathon Italy | H-FARM OCT 2025. 48h EU competition designing consumer experience apps using Copernicus & Galileo satellite data, unleashing the potential of space technologies."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "yes",
+      "notes": "Clarify: what was the team's app? What role did Alessandro play (PM, design, dev)? Did they place? Need pitch deck or screenshots."
+    },
+    {
+      "id": "impact-puglia",
+      "title": "Impact Puglia — virtual influencer campaign",
+      "type": "project",
+      "role": "Persona designer, content strategist",
+      "context": "H-FARM — newco hotel client (off-season tourism brief)",
+      "period": {"from": "2025-11", "to": "2025-11"},
+      "one_line_description": "Built a virtual influencer for a newco hotel to drive off-season tourism — persona, content strategy, AI-assisted assets, omnichannel plan.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "Impact Puglia — Virtual Influencer Campaign | H-FARM NOV 2025. Created a virtual influencer for a 'newco' hotel to drive off-season tourism: defined persona and content strategy, produced AI-assisted assets, and crafted an omnichannel communication plan for reaching more customer."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "yes",
+      "notes": "Strong AI-integration + comms blend. Need persona doc, sample AI-generated content (Midjourney/Sora?), the omnichannel plan, and any client/brief artifacts."
+    },
+    {
+      "id": "gamebl",
+      "title": "GameBL — mobile game (PM + creative lead)",
+      "type": "project",
+      "role": "Project Manager & Creative Lead",
+      "context": "Apple Developer Academy, Naples — selected in incubator program",
+      "period": {"from": "2025-01", "to": "2025-07"},
+      "one_line_description": "Mobile game built with cross-functional team; coordinated delivery and led creative direction (visuals, narrative, sound).",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "GameBL — Project manager & creative lead of a mobile game | APPLE DEV. ACADEMY 2025. I coordinated the team, ensuring task alignment and delivery milestones; led the creative direction by producing visual assets, narrative arc and sound design. Selected in an incubator program."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "yes",
+      "notes": "Likely has App Store listing or TestFlight build, screenshots, gameplay video, team credits, pitch deck for incubator. Genre? Title? Outcome of incubator?"
+    },
+    {
+      "id": "4raw-city-sound-studio",
+      "title": "4Raw City Sound Studio — communication specialist",
+      "type": "job",
+      "role": "Communication Specialist",
+      "context": "Naples, Italy — music studio / artist collective",
+      "period": {"from": "2024-01", "to": "2024-12"},
+      "one_line_description": "Led digital strategies for artists and emerging brands — engagement, brand positioning, visual storytelling.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "4Raw City Sound Studio association — Communication specialist | NAPLES, ITALY 2024. Led digital strategies for artists and emerging brands, focusing on engagement, brand positioning, and visual storytelling. Produced and edited multimedia content, coordinated photo shoots, and contributed to creative direction and community growth across campaigns and events."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "yes",
+      "notes": "Comms portfolio anchor. Need: campaign artifacts, sample content (Reels/posts), before/after engagement numbers, artist roster, photo shoot samples."
+    },
+    {
+      "id": "yaxy-records",
+      "title": "Yaxy Records — event organizer assistant",
+      "type": "side-project",
+      "role": "Logistics & Communication Support",
+      "context": "Naples / London — international music events collective",
+      "period": {"from": "2021-01", "to": "present"},
+      "one_line_description": "Ongoing support to London-based collective on event planning, logistics, and communication across Naples and London.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "Event Organizer assistant — Logistic and communication support | NAPLES-LONDON 2021. Ongoing collaboration with Yaxy Records, a London-based collective known for international music events. I support the team in London and Naples, contributing to event planning, logistics, and communication."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "maybe",
+      "notes": "Long-running side track. Could be portfolio piece OR could stay as CV-only depending on whether master values international/cultural exposure. Need event flyers, photos, lineup posters."
+    },
+    {
+      "id": "msc-h-farm",
+      "title": "MSc Digital Transformation Strategies & Entrepreneurship",
+      "type": "study",
+      "role": "Graduate student",
+      "context": "H-FARM, Italy",
+      "period": {"from": "2024-09", "to": "present"},
+      "one_line_description": "Current master's program at H-FARM — focus on digital transformation and entrepreneurship.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "MSc in Digital Transformation Strategies and Entrepreneurship | H-FARM — ONGOING"}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "no",
+      "notes": "Education item — not its own portfolio piece, but referenced in bio/header. Many of the projects above are H-FARM coursework outputs (CASSINI, Impact Puglia)."
+    },
+    {
+      "id": "apple-dev-academy",
+      "title": "Apple Developer Academy",
+      "type": "study",
+      "role": "Student (selected cohort)",
+      "context": "Naples, Italy — Apple's only international academy site",
+      "period": {"from": "2024-10", "to": "2025-07"},
+      "one_line_description": "Apple's 10-month international, multidisciplinary developer program in Naples.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "Apple Developer Academy | NAPLES, ITALY 2025. The academy fosters a collaborative, international and multidisciplinary approach, with people coming from all over the world in the only international sites of Apple."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "no",
+      "notes": "Education item — GameBL is the project output. The Academy itself is a credential and signal of selectivity, not a portfolio piece on its own."
+    },
+    {
+      "id": "bachelor-comm-naples",
+      "title": "Bachelor's degree in Communication",
+      "type": "study",
+      "role": "Undergraduate",
+      "context": "Naples, Italy",
+      "period": {"from": "2021-09", "to": "2024-07"},
+      "one_line_description": "Bachelor's in Communication — audience engagement, branding, stakeholder relations across traditional and digital platforms.",
+      "raw_inputs": [
+        {"source_type": "cv-bullet", "ref": "Bachelor's degree in communication | NAPLES, ITALY 2024. The curriculum explored how to engage different audiences, crafting branding strategies manage complex communication challenges, build strong partner and stakeholder relations and deliver impactful messages across traditional and digital platform."}
+      ],
+      "extraction_completeness": "rough",
+      "portfolio_candidate": "no",
+      "notes": "Foundation credential — feeds the comms side of the founder profile."
+    }
+  ],
+  "summary": {
+    "total_experiences": 9,
+    "by_type": {"project": 4, "job": 1, "side-project": 1, "study": 3},
+    "portfolio_candidates": {"hero": 1, "yes": 4, "maybe": 1, "no": 3}
+  }
+}

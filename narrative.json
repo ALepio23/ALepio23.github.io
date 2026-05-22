@@ -1,0 +1,40 @@
+{
+  "calibrated_for": "nAItive Fellowship — H-FARM",
+  "edge_statement": "I came to product through communication, not the other way around. Most founders learn comms after they learn to build; I learned it first. The combination is the edge.",
+  "positioning_one_sentence": "Comms-native founder building MARA — an AI-relevant marketplace connecting companies and university students through hackathon-style challenges — already inside the H-FARM Startup Center Pre-Accelerator.",
+  "through_line": {
+    "origin": "Bachelor in Communication (Naples, 2024) — learned how messages move people, audiences, decisions.",
+    "translation": "Apple Developer Academy, Naples (2025) — learned to build the things those messages live in. Shipped a mobile game as PM and creative lead. Selected into an incubator.",
+    "current_build": "MSc in Digital Transformation & Entrepreneurship at H-FARM, while co-founding MARA (selected into H-FARM Startup Center Pre-Accelerator) and running AI-native client work (Impact Puglia: virtual influencer for a newco hotel) and EU technical sprints (CASSINI Hackathon on Copernicus satellite data).",
+    "edge": "Two languages most founders pick up sequentially — comms and product. I'm fluent in both at the start of my career.",
+    "fellowship_fit": "Already at H-FARM. Already in pre-accelerator. nAItive is the next gate of the same trajectory — 6 months of full-time builder time, on the same campus, with the same kind of people. MARA goes from side-of-master to focused build."
+  },
+  "what_im_building_now": "MARA — a marketplace where companies meet students by giving them real problems to solve, on a clock, in teams. The output is more honest than a CV. Selected into the H-FARM Startup Center Pre-Accelerator (2025).",
+  "personal_competitive_advantage": [
+    "Comms-native: I can make the thing AND make people care about it. Most founders pay for one of those skills; I have both.",
+    "AI-fluent in real client work: Impact Puglia ran on an AI-asset pipeline tuned to a synthetic persona. Not theory.",
+    "Multidisciplinary at speed: 5 shipped projects in ~18 months across product, AI campaigns, hackathons, comms — without dropping the master's load.",
+    "H-FARM-native: already operating inside the ecosystem the fellowship runs in. Lower switching cost; higher learning curve."
+  ],
+  "pattern_of_autonomous_action": [
+    "Co-founded MARA → got into H-FARM Pre-Accelerator (2025)",
+    "PM + creative lead on GameBL → selected for Apple Dev Academy incubator (2025)",
+    "Led 4Raw City Sound Studio comms across full 2024 — single-handedly across artists and brands",
+    "Long-running Yaxy Records collab (Naples ↔ London, since 2021) — sustained collaboration on international events"
+  ],
+  "tagline_candidates": [
+    "A. 'Comms-native founder. I can build the thing AND make people care about it.'",
+    "B. 'I came to product through communication, not the other way around.'",
+    "C. 'MARA. Apple Dev Academy. H-FARM Pre-Accelerator. One trajectory.'",
+    "Recommended for NAITIVE: A or B as the about block, C as a secondary line."
+  ],
+  "open_questions_for_alessandro": [
+    "Age — confirm so I can frame 'unusual breadth at his career stage'",
+    "Are there any traction numbers for MARA we can use? (companies signed, challenges run, students on platform)",
+    "Photo for the profile placeholder — drop a JPG at ~/Portfolio/assets/profile.jpg",
+    "LinkedIn About text — paste here so I can pull the parts that should live on the portfolio",
+    "GameBL: title, App Store / TestFlight link, gameplay video / screenshots?",
+    "Impact Puglia: persona name, sample AI-generated assets to feature?",
+    "CASSINI: your team's concept and final placement?"
+  ]
+}
