@@ -5,8 +5,7 @@
     "photo_asset": "assets/profile.jpg",
     "headline": "Apple Developer Academy alumni · MSc at H-FARM · Co-founding MARA · Naples to Venice.",
     "about": [
-      "Bachelor in Communication, Naples (2024). Apple Developer Academy in Naples (2024–2025), Apple's only international site: an English-language, multidisciplinary cohort, where I started my AI and machine learning training early, well before it became the default tool around me. One-year MSc in Digital Transformation and Entrepreneurship at H-FARM (2024–2025), where I co-founded MARA, a challenge-based platform to acquire talent, building the new standard of talent acquisition with three teammates.",
-      "Most of my early shipped work comes from the creative-director seat. Visual identity, narrative, brand voice, copy work across music, hospitality, retail and agri-food clients since 2024. The AI work started inside that practice, not next to it: a custom-trained CoreML emotion classifier inside an iOS app, a Midjourney-generated digital host for a small Puglia winery, a Claude-assisted MVP for a consumer mobile product.",
+      "Bachelor in Communication, Naples (2024). Apple Developer Academy in Naples (2024–2025), Apple's only international site: an English-language, multidisciplinary cohort, where I started my AI and machine learning training early. MSc in Digital Transformation and Entrepreneurship at H-FARM (September 2025 – November 2026), where I co-founded MARA, a challenge-based platform to acquire talent, with three teammates.",
       "Eleven shipped projects across three windows. 4Raw City Sound Studio (2024, Naples). Apple Developer Academy (2024–2025): GameBL, H2H, Leafy, EmotionPlaylist. H-FARM era (2025–2026): MARA, Impact Puglia, Lux Collective, Fidus, Agromercato, Terra Stage. MARA is the one I am putting most of my time into right now."
     ],
     "edge_label": "What I bring",
@@ -38,7 +37,7 @@
       },
       {
         "label": "H-FARM College",
-        "sublabel": "MSc Digital Transformation & Entrepreneurship · Venice · 2024–2025",
+        "sublabel": "MSc Digital Transformation & Entrepreneurship · Venice · Sept 2025 – Nov 2026",
         "logo_asset": "assets/logos/h-farm-college.png",
         "url": "https://www.h-farm.com/college"
       }
@@ -1883,5 +1882,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-22T10:42:18.105011+00:00"
+  "last_updated": "2026-05-22T15:15:23.254296+00:00"
 }
