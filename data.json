@@ -39,7 +39,7 @@
         "label": "H-FARM College",
         "sublabel": "MSc Digital Transformation & Entrepreneurship · Venice · Sept 2025 – Nov 2026",
         "logo_asset": "assets/logos/h-farm-college.png",
-        "url": "https://www.h-farm.com/college"
+        "url": "https://college.h-farm.com/en/"
       }
     ],
     "ai_toolkit": [
@@ -462,7 +462,7 @@
       },
       "links": [
         {
-          "label": "Full presentation (PDF)",
+          "label": "Open / download presentation (PDF)",
           "url": "assets/impact-puglia/deck.pdf",
           "primary": true
         }
@@ -655,7 +655,7 @@
       },
       "links": [
         {
-          "label": "Deck (PDF)",
+          "label": "Open / download deck (PDF)",
           "url": "assets/gamebl/deck.pdf",
           "primary": true
         }
@@ -802,7 +802,7 @@
       },
       "links": [
         {
-          "label": "Full deck (PDF)",
+          "label": "Open / download deck (PDF)",
           "url": "assets/terra-stage/deck.pdf",
           "primary": true
         },
@@ -989,7 +989,7 @@
       },
       "links": [
         {
-          "label": "Case study (PDF)",
+          "label": "Open / download case study (PDF)",
           "url": "assets/leafy/deck.pdf",
           "primary": true
         },
@@ -1523,7 +1523,7 @@
       },
       "links": [
         {
-          "label": "Deck (PDF)",
+          "label": "Open / download deck (PDF)",
           "url": "assets/h2h/deck.pdf",
           "primary": true
         }
@@ -1696,7 +1696,7 @@
       },
       "links": [
         {
-          "label": "Pitch deck (PDF)",
+          "label": "Open / download pitch deck (PDF)",
           "url": "assets/fidus/deck.pdf",
           "primary": true
         }
@@ -1869,7 +1869,13 @@
         ],
         "embeds": []
       },
-      "links": [],
+      "links": [
+        {
+          "label": "agromercato.com",
+          "url": "https://www.agromercato.com",
+          "primary": true
+        }
+      ],
       "meta": {
         "period": "Academic year 2025–2026 · submitted January 2026",
         "role": "Customer Insights (H-FARM consulting team for Abilita Srls)",
@@ -1897,5 +1903,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-22T16:16:03.015533+00:00"
+  "last_updated": "2026-05-23T16:13:26.653073+00:00"
 }
