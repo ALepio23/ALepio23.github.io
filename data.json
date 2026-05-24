@@ -1686,6 +1686,10 @@
             "body": "Acquisition design. How the platform reaches a buyer audience that prefers messaging over apps. WhatsApp-first community, trusted-referral chains through early adopters, and phygital touchpoints inside the physical marketplace."
           },
           {
+            "label": "Customer research",
+            "body": "Customer research with the market's buyer audience surfaced a clear signal that shaped the whole acquisition strategy. Specific data under NDA, but the direction was unambiguous: the existing behavior of this audience pointed toward WhatsApp as the right entry channel, and to the agent layer on top of it."
+          },
+          {
             "label": "The strategic insight",
             "body": "Cultural barrier is bigger than tech barrier. In a market where buyers already do business through voice and messaging, the move was not to push them onto a new app but to meet them inside the tool they were already using. The platform should ride on existing behavior, not fight it."
           },
@@ -1737,7 +1741,18 @@
           "src": "assets/agromercato/team-photo.jpg",
           "alt": "The Agromercato team presenting at H-FARM"
         },
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "assets/agromercato/brand-01.png",
+            "alt": "Agromercato.com brand cover — 'L'Innovazione Digitale del Mercato'",
+            "caption": "Agromercato.com — the public brand."
+          },
+          {
+            "src": "assets/agromercato/spoki-whatsapp.png",
+            "alt": "Spoki on WhatsApp — the platform the WhatsApp-first strategy was built on",
+            "caption": "Spoki on WhatsApp — the engine behind the WhatsApp-first acquisition layer."
+          }
+        ],
         "embeds": []
       },
       "links": [
@@ -1774,5 +1789,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:19:00.614110+00:00"
+  "last_updated": "2026-05-24T19:24:24.671449+00:00"
 }
