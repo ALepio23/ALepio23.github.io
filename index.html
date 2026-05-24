@@ -864,8 +864,9 @@
       width: 100%;
       aspect-ratio: 16 / 9;
       border-radius: 10px;
-      border: 1px solid var(--piece-border, rgba(0,0,0,0.08));
-      background: var(--piece-surface, rgba(0,0,0,0.02));
+      border: 1px solid var(--piece-ink-muted, rgba(0,0,0,0.25));
+      background: #0c0c0c;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
     }
     .modal-embed-image img {
       width: 100%;
@@ -918,6 +919,44 @@
       margin-top: 12px;
       font-size: 12px;
       color: var(--piece-ink-muted, rgba(0, 0, 0, 0.55));
+    }
+
+    /* === Generic image pair — 2 medium images side-by-side (reusable) === */
+    .image-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .image-pair figure {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .image-pair img {
+      width: 100%;
+      height: auto;
+      max-height: 280px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid var(--piece-border, rgba(0,0,0,0.08));
+    }
+    .image-pair figcaption {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--piece-ink-muted, rgba(0,0,0,0.55));
+    }
+    @media (max-width: 600px) {
+      .image-pair { grid-template-columns: 1fr; gap: 16px; }
+    }
+
+    /* === Leafy card — keep "↗ GitHub" link indicator readable when overlapped by the gnome decor === */
+    .card[data-id="leafy"] .card-link-indicator {
+      color: #ffffff;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+      font-weight: 700;
+      position: relative;
+      z-index: 3;
     }
 
     /* === Generic asset pool — small grouped thumbnails (reusable) === */
@@ -1324,6 +1363,20 @@
       }
     });
 
+    // ESC key — capture phase so iframes (Figma/YouTube/marachallenge) don't swallow the keystroke first
+    function onEscapeKey(e) {
+      if (e.key !== 'Escape') return;
+      const lb = document.getElementById('lightbox');
+      const modal = document.getElementById('modal');
+      if (lb && lb.classList.contains('open')) { closeLightbox(); return; }
+      if (modal && modal.classList.contains('open')) { closeModal(); return; }
+    }
+    document.addEventListener('keydown', onEscapeKey, true);
+    window.addEventListener('keydown', onEscapeKey, true);
+    // Refocus parent when user interacts with anything that's NOT inside an iframe,
+    // so ESC reliably reaches us next time
+    document.addEventListener('mousedown', () => { try { window.focus(); } catch(_){} }, true);
+
     function bgIsDark(color) {
       if (!color) return false;
       const m = String(color).trim().match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
@@ -1455,6 +1508,14 @@
               ${it.caption ? `<figcaption>${esc(it.caption)}</figcaption>` : ''}
             </figure>`).join('');
           return `<div class="modal-embed modal-embed-pool">${labelHTML}<div class="asset-pool">${items}</div>${captionHTML}</div>`;
+        }
+        if (e.kind === 'image_pair') {
+          const items = (e.items || []).map(it => `
+            <figure>
+              <img src="${esc(it.src)}" alt="${esc(it.alt || '')}" data-zoom="${esc(it.src)}" />
+              ${it.caption ? `<figcaption>${esc(it.caption)}</figcaption>` : ''}
+            </figure>`).join('');
+          return `<div class="modal-embed modal-embed-pair">${labelHTML}<div class="image-pair">${items}</div>${captionHTML}</div>`;
         }
         return '';
       }).join('');

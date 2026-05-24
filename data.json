@@ -576,9 +576,9 @@
         },
         "gallery": [
           {
-            "src": "assets/gamebl/character-silhouette.jpg",
-            "alt": "Dealer silhouette — black-hooded figure with bony hand offering a dice",
-            "caption": "The cartoon-dark register the gambling-awareness story needed: a dealer-as-grim-reaper figure, drawn by hand in Keynote."
+            "src": "assets/gamebl/the-devil.png",
+            "alt": "The Devil — black-hooded character with bony hand, the dealer-as-grim-reaper figure from GameBL",
+            "caption": "The Devil — the dealer-as-grim-reaper figure. The cartoon-dark register the gambling-awareness story needed, drawn by hand in Keynote."
           },
           {
             "src": "assets/gamebl/deck-01.png",
@@ -830,6 +830,9 @@
           "src": "assets/leafy/mascot-gnome.png",
           "position": "bottom-right",
           "opacity": 1.0
+        },
+        "highlight": {
+          "label": "↗ REPO · GITHUB"
         }
       },
       "interior": {
@@ -1824,18 +1827,20 @@
         ],
         "embeds": [
           {
-            "kind": "image",
-            "src": "assets/agromercato/team-photo.jpg",
-            "alt": "Agromercato team presenting at H-FARM",
-            "label": "At H-FARM",
-            "caption": "Presenting the work inside the H-FARM Startup Center."
-          },
-          {
-            "kind": "image",
-            "src": "assets/agromercato/spoki-whatsapp.png",
-            "alt": "Spoki on WhatsApp — the engine behind the WhatsApp-first acquisition layer",
-            "label": "The WhatsApp engine",
-            "caption": "Spoki on WhatsApp — the tooling that makes the acquisition layer concrete."
+            "kind": "image_pair",
+            "label": "Inside the Pre-Accelerator + the WhatsApp engine",
+            "items": [
+              {
+                "src": "assets/agromercato/team-photo.jpg",
+                "alt": "Agromercato team presenting at H-FARM",
+                "caption": "At H-FARM Startup Center."
+              },
+              {
+                "src": "assets/agromercato/spoki-whatsapp.png",
+                "alt": "Spoki on WhatsApp — the platform the WhatsApp-first strategy was built on",
+                "caption": "Spoki on WhatsApp — the engine for the acquisition layer."
+              }
+            ]
           }
         ]
       },
@@ -1873,5 +1878,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T22:49:50.931674+00:00"
+  "last_updated": "2026-05-24T22:54:38.526969+00:00"
 }
