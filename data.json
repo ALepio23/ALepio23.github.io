@@ -1649,8 +1649,8 @@
     {
       "id": "agromercato",
       "card": {
-        "title": "Agromercato",
-        "subtitle": "A B2B wholesale marketplace for the agri-food sector. Pre-launch. Currently incubated through the H-FARM Startup Center Pre-Accelerator. Project specifics under NDA.",
+        "title": "Agromercato.com",
+        "subtitle": "The first B2B marketplace born from Sardinia's Mercato Ortofrutticolo di Sestu. Pre-launch. Incubated through the H-FARM Startup Center Pre-Accelerator. Commercial specifics under NDA.",
         "tag": "2025–2026 · Pre-Accelerator",
         "thumbnail_asset": "assets/agromercato/brand-01.png",
         "external_link_indicator": "agromercato.com",
@@ -1675,11 +1675,15 @@
       },
       "interior": {
         "headline": "Designing how a wholesale market enters the digital age.",
-        "hook": "A B2B wholesale marketplace project for the agri-food sector, currently pre-launch. The work centered on acquisition design for a buyer audience that lives on WhatsApp, not in app stores. Currently incubated through the H-FARM Startup Center Pre-Accelerator. Project specifics under NDA.",
+        "hook": "Agromercato.com is the first B2B marketplace born from the heart of Sardinia's Mercato Ortofrutticolo all'Ingrosso di Sestu. The platform extends the physical market into the digital channel without replacing it: six founding wholesalers connected to professional buyers across the region. My focus is acquisition design — how to bring a buyer audience that lives on WhatsApp into a new tool without forcing the migration. Currently incubated through the H-FARM Startup Center Pre-Accelerator. Commercial specifics under NDA.",
         "sections": [
           {
+            "label": "What it is",
+            "body": "Agromercato.com, “Il mercato di sempre, nel futuro di tutti.” The first B2B marketplace born inside the Mercato Ortofrutticolo all'Ingrosso di Sestu, Sardinia's wholesale fruit and vegetable market. Six founding wholesalers — Ortofrutta Uno Master, Ortosestu Cooperativa Agricola, Enafrutta, Walfrutta, Pisano Ortofrutta, G.S.N. Ortofrutta — reach professional buyers (ristoratori, negozianti, strutture ricettive, operatori della distribuzione) across the region. Mobile apps on iOS and Android. Five public values: affidabilità, tracciabilità, sostenibilità, innovazione, connessione."
+          },
+          {
             "label": "What I worked on",
-            "body": "Acquisition design for a B2B wholesale marketplace, how the platform reaches a buyer audience that prefers messaging over apps. WhatsApp-first community, trusted-referral chains through early adopters, and phygital touchpoints inside the physical marketplace."
+            "body": "Acquisition design. How the platform reaches a buyer audience that prefers messaging over apps. WhatsApp-first community, trusted-referral chains through early adopters, and phygital touchpoints inside the physical marketplace."
           },
           {
             "label": "The strategic insight",
@@ -1687,10 +1691,10 @@
           },
           {
             "label": "Where it sits now",
-            "body": "Pre-launch. Incubated through the H-FARM Startup Center Pre-Accelerator. Specifics remain under NDA until launch."
+            "body": "Pre-launch. The platform and apps are live (agromercato.com, iOS + Android); full commercial activation is ongoing. Incubated through the H-FARM Startup Center Pre-Accelerator. Specific go-to-market figures remain under NDA until launch."
           }
         ],
-        "credits": "Project pre-launch, under NDA · H-FARM Startup Center Pre-Accelerator",
+        "credits": "Agromercato.com (public website) · Mercato Ortofrutticolo di Sestu, Sardinia · H-FARM Startup Center Pre-Accelerator · Commercial specifics under NDA",
         "metrics_highlight": [],
         "pull_quotes": [],
         "stack": [
@@ -1736,7 +1740,13 @@
         "gallery": [],
         "embeds": []
       },
-      "links": [],
+      "links": [
+        {
+          "label": "agromercato.com",
+          "url": "https://www.agromercato.com",
+          "primary": true
+        }
+      ],
       "meta": {
         "period": "2025–2026 · Pre-Accelerator",
         "role": "Strategy · Customer Insights · Acquisition design",
@@ -1764,5 +1774,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:09:40.404284+00:00"
+  "last_updated": "2026-05-24T19:15:43.005245+00:00"
 }
