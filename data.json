@@ -1679,7 +1679,7 @@
         "sections": [
           {
             "label": "What it is",
-            "body": "Agromercato.com, “Il mercato di sempre, nel futuro di tutti.” The first B2B marketplace born inside the Mercato Ortofrutticolo all'Ingrosso di Sestu, Sardinia's wholesale fruit and vegetable market. Six founding wholesalers — Ortofrutta Uno Master, Ortosestu Cooperativa Agricola, Enafrutta, Walfrutta, Pisano Ortofrutta, G.S.N. Ortofrutta — reach professional buyers (ristoratori, negozianti, strutture ricettive, operatori della distribuzione) across the region. Mobile apps on iOS and Android. Five public values: affidabilità, tracciabilità, sostenibilità, innovazione, connessione."
+            "body": "Agromercato.com, “Il mercato di sempre, nel futuro di tutti.” The first B2B marketplace born inside the Mercato Agroalimentare della Sardegna (Sestu) — part of Italmercati, the national network of 22 Italian wholesale agri-food markets that together move 7.1 million metric tons per year and serve 7 million annual visitors. The platform connects the market's wholesalers to professional buyers across the region (ristoratori, negozianti, strutture ricettive, operatori della distribuzione). Mobile apps on iOS and Android."
           },
           {
             "label": "What I worked on",
@@ -1694,7 +1694,7 @@
             "body": "Pre-launch. The platform and apps are live (agromercato.com, iOS + Android); full commercial activation is ongoing. Incubated through the H-FARM Startup Center Pre-Accelerator. Specific go-to-market figures remain under NDA until launch."
           }
         ],
-        "credits": "Agromercato.com (public website) · Mercato Ortofrutticolo di Sestu, Sardinia · H-FARM Startup Center Pre-Accelerator · Commercial specifics under NDA",
+        "credits": "Agromercato.com (public website) · Mercato Agroalimentare della Sardegna (Italmercati network) · H-FARM Startup Center Pre-Accelerator · Commercial specifics under NDA",
         "metrics_highlight": [],
         "pull_quotes": [],
         "stack": [
@@ -1774,5 +1774,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:15:43.005245+00:00"
+  "last_updated": "2026-05-24T19:19:00.614110+00:00"
 }
