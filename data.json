@@ -1674,7 +1674,8 @@
                 "alt": "Fidus iOS app — 07 Profile",
                 "caption": "Profile — Asso, LVL 6, 560 XP, completed goals tracked."
               }
-            ]
+            ],
+            "device_frame": "iphone"
           },
           {
             "kind": "image_carousel",
@@ -1729,6 +1730,11 @@
           "label": "Open / download pitch deck (PDF)",
           "url": "assets/fidus/deck.pdf",
           "primary": true
+        },
+        {
+          "label": "Live prototype on Google AI Studio",
+          "url": "https://aistudio.google.com/apps/d93d49cc-94f5-4071-9c03-815fb1dac857?showAssistant=true&showPreview=true",
+          "primary": false
         }
       ],
       "meta": {
@@ -1931,5 +1937,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:19:57.201004+00:00"
+  "last_updated": "2026-05-24T23:24:07.763497+00:00"
 }
