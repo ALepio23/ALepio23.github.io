@@ -641,6 +641,54 @@
       justify-content: center;
     }
 
+    /* === Agromercato: phone screenshots as horizontal swipeable carousel === */
+    .modal-inner[data-piece-id="agromercato"] .modal-gallery {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-padding: 24px;
+      gap: 28px;
+      padding: 24px 24px 36px;
+      margin-left: -24px;
+      margin-right: -24px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent);
+    }
+    .modal-inner[data-piece-id="agromercato"] .modal-gallery figure {
+      flex: 0 0 auto;
+      scroll-snap-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 90vw;
+      margin: 0;
+    }
+    .modal-inner[data-piece-id="agromercato"] .modal-gallery img {
+      max-height: 70vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.18));
+    }
+    .modal-inner[data-piece-id="agromercato"] .modal-gallery img[src*="spoki"],
+    .modal-inner[data-piece-id="agromercato"] .modal-gallery img[src*="site-screenshot"] {
+      max-height: 60vh;
+      border-radius: 10px;
+      filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.12));
+    }
+    .modal-inner[data-piece-id="agromercato"] .modal-gallery .modal-gallery-caption {
+      max-width: 320px;
+      text-align: center;
+      margin-top: 12px;
+    }
+
     /* === Terra Stage: satellite-viewport HUD frame on the hero === */
     .modal-inner[data-piece-id="terra-stage"] .modal-hero {
       background-color: #0a1124;
@@ -1153,15 +1201,41 @@
       bindModalEvents();
       ensureBackToGridButton();
       document.body.style.overflow = 'hidden';
+      // Push to history so browser back button closes the modal instead of leaving the site
+      if (!(history.state && history.state.modalOpen)) {
+        history.pushState({ modalOpen: true, pieceId: id }, '', '#' + id);
+      } else if (history.state.pieceId !== id) {
+        history.replaceState({ modalOpen: true, pieceId: id }, '', '#' + id);
+      }
     }
 
-    function closeModal() {
+    function closeModalUI() {
+      // Pure UI dismiss — no history manipulation. Used by popstate handler.
       document.getElementById('modal').classList.remove('open');
       document.getElementById('backdrop').classList.remove('open');
       const back = document.getElementById('backToGrid');
       if (back) back.classList.remove('visible');
       document.body.style.overflow = '';
     }
+
+    function closeModal() {
+      // User-initiated close (close button, ESC, backdrop click, back-to-grid).
+      // If we have a pushed history entry, going back triggers popstate -> closeModalUI.
+      // Otherwise close the UI directly.
+      if (history.state && history.state.modalOpen) {
+        history.back();
+      } else {
+        closeModalUI();
+      }
+    }
+
+    // Browser back button → close the modal instead of leaving the portfolio
+    window.addEventListener('popstate', () => {
+      const modal = document.getElementById('modal');
+      if (modal && modal.classList.contains('open')) {
+        closeModalUI();
+      }
+    });
 
     function bgIsDark(color) {
       if (!color) return false;

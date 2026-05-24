@@ -866,6 +866,10 @@
             "logo_asset": "assets/logos/swift.svg"
           },
           {
+            "label": "Xcode",
+            "category": "tool"
+          },
+          {
             "label": "Sketch",
             "category": "tool",
             "logo_asset": "assets/logos/sketch.png"
@@ -1128,6 +1132,10 @@
             "logo_asset": "assets/logos/swift.svg"
           },
           {
+            "label": "Xcode",
+            "category": "tool"
+          },
+          {
             "label": "Sketch",
             "category": "tool",
             "logo_asset": "assets/logos/sketch.png"
@@ -1384,6 +1392,10 @@
             "label": "Swift",
             "category": "language",
             "logo_asset": "assets/logos/swift.svg"
+          },
+          {
+            "label": "Xcode",
+            "category": "tool"
           },
           {
             "label": "SwiftUI",
@@ -1738,19 +1750,39 @@
       },
       "assets": {
         "hero": {
-          "src": "assets/agromercato/team-photo.jpg",
-          "alt": "The Agromercato team presenting at H-FARM"
+          "src": "assets/agromercato/site-screenshot.png",
+          "alt": "agromercato.com homepage — 'Il mercato di sempre, nel futuro di tutti'"
         },
         "gallery": [
           {
-            "src": "assets/agromercato/site-screenshot.png",
-            "alt": "agromercato.com homepage — 'Il mercato di sempre, nel futuro di tutti'",
-            "caption": "agromercato.com — the live public site."
+            "src": "assets/agromercato/iphone-a.png",
+            "alt": "Agromercato iOS app screen A",
+            "caption": "Preordine — cart with real wholesaler products."
           },
           {
-            "src": "assets/agromercato/appstore-a.jpg",
-            "alt": "Agromercato iOS app, Preordine screen — cart with Anguria nera and Avocado from Ortosestu wholesaler",
-            "caption": "Agromercato iOS app — Preordine screen (App Store, ABILITA SRLS, v.1.1.2)."
+            "src": "assets/agromercato/iphone-b.png",
+            "alt": "Agromercato iOS app screen B",
+            "caption": "Area utente — order management with state filters."
+          },
+          {
+            "src": "assets/agromercato/iphone-c.png",
+            "alt": "Agromercato iOS app screen C",
+            "caption": "Platform UI — third screen."
+          },
+          {
+            "src": "assets/agromercato/iphone-d.png",
+            "alt": "Agromercato iOS app screen D",
+            "caption": "Platform UI — fourth screen."
+          },
+          {
+            "src": "assets/agromercato/iphone-e.png",
+            "alt": "Agromercato iOS app screen E",
+            "caption": "Platform UI — fifth screen."
+          },
+          {
+            "src": "assets/agromercato/iphone-f.png",
+            "alt": "Agromercato iOS app screen F",
+            "caption": "Platform UI — sixth screen."
           },
           {
             "src": "assets/agromercato/spoki-whatsapp.png",
@@ -1794,5 +1826,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:35:39.374486+00:00"
+  "last_updated": "2026-05-24T22:17:21.863011+00:00"
 }
