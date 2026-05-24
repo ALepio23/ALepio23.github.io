@@ -874,6 +874,86 @@
       display: block;
       border: 1px solid var(--piece-border, rgba(0,0,0,0.08));
     }
+
+    /* === Generic phone-screenshot carousel (reusable across pieces) === */
+    .phone-carousel {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-padding: 24px;
+      gap: 28px;
+      padding: 16px 24px 28px;
+      margin-left: -24px;
+      margin-right: -24px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent);
+    }
+    .phone-carousel figure {
+      flex: 0 0 auto;
+      scroll-snap-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 90vw;
+      margin: 0;
+    }
+    .phone-carousel img {
+      max-height: 60vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.18));
+      cursor: zoom-in;
+    }
+    .phone-carousel figcaption {
+      max-width: 320px;
+      text-align: center;
+      margin-top: 12px;
+      font-size: 12px;
+      color: var(--piece-ink-muted, rgba(0, 0, 0, 0.55));
+    }
+
+    /* === Generic asset pool — small grouped thumbnails (reusable) === */
+    .asset-pool {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 28px;
+      padding: 24px 16px;
+      background: var(--piece-surface, rgba(0, 0, 0, 0.03));
+      border-radius: 12px;
+    }
+    .asset-pool figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      flex: 0 0 auto;
+    }
+    .asset-pool img {
+      max-height: 130px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border: none;
+      background: transparent;
+      filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.10));
+    }
+    .asset-pool figcaption {
+      margin-top: 10px;
+      font-size: 11px;
+      color: var(--piece-ink-muted, rgba(0, 0, 0, 0.55));
+      text-align: center;
+      max-width: 140px;
+      line-height: 1.35;
+    }
     .modal-embed-caption {
       font-size: 12px;
       color: var(--piece-ink-muted, rgba(0,0,0,0.55));
@@ -1359,6 +1439,22 @@
         }
         if (e.kind === 'image') {
           return `<div class="modal-embed modal-embed-image">${labelHTML}<img src="${esc(e.src)}" alt="${esc(e.alt || '')}" />${captionHTML}</div>`;
+        }
+        if (e.kind === 'image_carousel') {
+          const items = (e.items || []).map(it => `
+            <figure>
+              <img src="${esc(it.src)}" alt="${esc(it.alt || '')}" data-zoom="${esc(it.src)}" />
+              ${it.caption ? `<figcaption>${esc(it.caption)}</figcaption>` : ''}
+            </figure>`).join('');
+          return `<div class="modal-embed modal-embed-carousel">${labelHTML}<div class="phone-carousel">${items}</div>${captionHTML}</div>`;
+        }
+        if (e.kind === 'image_pool') {
+          const items = (e.items || []).map(it => `
+            <figure>
+              <img src="${esc(it.src)}" alt="${esc(it.alt || '')}" />
+              ${it.caption ? `<figcaption>${esc(it.caption)}</figcaption>` : ''}
+            </figure>`).join('');
+          return `<div class="modal-embed modal-embed-pool">${labelHTML}<div class="asset-pool">${items}</div>${captionHTML}</div>`;
         }
         return '';
       }).join('');
