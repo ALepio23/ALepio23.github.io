@@ -153,23 +153,27 @@
       },
       "interior": {
         "headline": "Beyond the CV.",
-        "hook": "MARA was born from the insight of four Master's students at H-FARM College — Michele Gualano, Alessandro Della Rocca, Rita Zhubi, and Alessandro Pio Alvigi — who, two months into the program, realized a CV is no longer enough to convey the true value of one's skills. A B2Education platform that replaces the résumé with proof of work.",
+        "hook": "The CV had a good run. But in a world where AI and transformative forces are constantly reshaping what work looks like, a list of past titles no longer tells you what someone can actually do. MARA was born from that disconnect — a talent acquisition platform where companies publish real challenges, students compete to solve them in focused sprints, and the best solution wins. No CVs. Just proof of work.",
         "sections": [
           {
             "label": "The origin",
-            "body": "Two months into the H-FARM College MSc, four of us hit the same wall at the same time: the CV doesn't capture what we'd been actually doing. The College's model — real company briefs, team sprints, final pitch evaluated by the client — was already producing the kind of evidence a résumé can't carry. We turned that gap into a platform."
+            "body": "Four H-FARM College master's students — Michele Gualano, Alessandro Della Rocca, Rita Zhubi, and Alessandro Pio Alvigi — were two months into the program when the pattern became impossible to ignore. Even in a place built for entrepreneurship, the disconnect was a blocker. The person sitting next to you might have the next big idea; you might be exactly who they need to make it real. But there was no bridge.\n\nThe pivot moment came at H-FARM's Career Day — already different from any university fair we'd attended. Students weren't handing out CVs. They were in open labs, working alongside companies, solving problems in real time. That was it. Not another job board. A platform that brings companies, students, and universities together around a shared challenge. Already inside the H-FARM Startup Center Pre-Accelerator, we had the space, mentorship, and momentum to make it real."
           },
           {
             "label": "How MARA works",
-            "body": "A B2Education platform built on three actors. Students work on real company challenges and build a portfolio of proof, not promises. Companies post a brief, get tested solutions back, and identify talent already observed under pressure. Universities monitor participation and outcomes, strengthening an experiential learning model. The flow is five steps: pre-challenge consulting, brief design, two-week sprint, jury evaluation, talent pipeline. All submitted work transfers as full IP to the company."
+            "body": "A B2Education platform built on three actors. Students work on real company challenges and build a portfolio of proof, not promises. Companies find proven talent already observed under pressure. Universities activate their ecosystems and strengthen experiential learning. The flow is five steps: pre-challenge consulting, brief design, two-week sprint, jury evaluation, talent pipeline. The best solution wins, evaluated against predefined KPIs. All submitted work transfers as full IP to the company."
           },
           {
             "label": "Proof of work, not paper claims",
             "body": "AI and the rewriting of every job role are making a list of past experiences less and less sufficient. The unit of evidence is shifting from \"what I claim I can do\" to \"what I shipped\". MARA structures that shift. The jury scores on Idea Originality, Team Dynamics, Solution Viability, Presentation Craft, and Brief Coherence — observable signals from a real engagement."
           },
           {
-            "label": "The first live test",
-            "body": "The proof of concept ran on the H-FARM hackathon co-organized with YouTuber Jakidale. 157 participants, 30 teams, 6 judges — all activity ran end-to-end inside MARA: team formation, project management, submissions, scoring. Rita Zhubi's team won the \"Robot Companion\" brief and received the first Soulbound credential, MARA-2026-0043. Two more challenges have shipped since: The Lux Collective (Mauritius-headquartered hotel group) and CX Napoli."
+            "label": "First time live",
+            "body": "MARA's first real test ran on H-ACK, the H-FARM hackathon co-organized with YouTuber Jakidale. The platform didn't just hold — it ran the event end-to-end: 157 participants, 30 teams, 6 judges, all operating inside the MARA workspace to manage tasks, collaborate, and submit their final work. Rita Zhubi's team won the \"Robot Companion\" brief and received the first Soulbound credential, MARA-2026-0043. For a platform that launched just days before, that's not a pilot. That's a proof of concept."
+          },
+          {
+            "label": "The first real company challenge",
+            "body": "The Lux Collective — a global hotel management company operating award-winning brands including LUX* and SALT — chose H-FARM College students to tackle one of the hospitality industry's most interesting questions: how do you build a meaningful connection between a brand and the Social Nomad, the modern traveler who blurs the lines between work, life, and play? H-FARM College is running the challenge. MARA is the platform powering it. The winning team earns a seat at the table in London for the World Travel Market press conference alongside the company's CEO and CCO. Not a case study. A real brief, from a real company, with real stakes."
           },
           {
             "label": "What is live",
@@ -177,21 +181,18 @@
           },
           {
             "label": "What's next",
-            "body": "H-ACK was the start. H-FARM College and the MARA team are extending the platform to other ongoing programs across the college, with a year-1 plan targeting 18 challenges across three intakes. Selected for the H-FARM Startup Center Pre-Accelerator."
-          },
-          {
-            "label": "Press",
-            "body": "H-FARM College, April 2026 — \"Beyond the CV: MARA, the platform born from the Challenges of H-FARM College\". The editorial that surfaced MARA outside the cohort."
+            "body": "H-ACK was chapter one. MARA's mission is changing the hiring world with proof of work, and 157 students that weekend were just the beginning. What comes next are real companies, real challenges, and a generation of students who won't need a CV to prove their worth. H-FARM College and the MARA team are extending the platform to other ongoing programs across the college; year-1 plan targets 18 challenges across three intakes. Featured by H-FARM College in April 2026 (\"Beyond the CV\")."
           }
         ],
         "credits": "Co-founders: Michele Gualano · Alessandro Della Rocca · Rita Zhubi · Alessandro Pio Alvigi · marachallenge.com",
         "metrics_highlight": [
+          "157 · participants in the H-ACK pilot",
           "3 · challenges shipped",
           "250 · students onboarded",
-          "Polygon · first SBT minted",
-          "Apr 2026 · H-FARM College feature"
+          "Polygon · first SBT (MARA-2026-0043)"
         ],
         "pull_quotes": [
+          "What comes next are real companies, real challenges, and a generation of students who won't need a CV to prove their worth.",
           "A CV is no longer enough to convey the true value of one's skills.",
           "Match. Ready. Action."
         ],
@@ -1908,5 +1909,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T17:31:29.472745+00:00"
+  "last_updated": "2026-05-24T17:48:56.767791+00:00"
 }
