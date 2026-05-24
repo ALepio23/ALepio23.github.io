@@ -185,12 +185,7 @@
           }
         ],
         "credits": "Co-founders: Michele Gualano · Alessandro Della Rocca · Rita Zhubi · Alessandro Pio Alvigi · marachallenge.com",
-        "metrics_highlight": [
-          "157 · participants in the H-ACK pilot",
-          "3 · challenges shipped",
-          "250 · students onboarded",
-          "Polygon · first SBT (MARA-2026-0043)"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "What comes next are real companies, real challenges, and a generation of students who won't need a CV to prove their worth.",
           "A CV is no longer enough to convey the true value of one's skills.",
@@ -1909,5 +1904,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T17:48:56.767791+00:00"
+  "last_updated": "2026-05-24T17:54:39.543131+00:00"
 }
