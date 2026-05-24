@@ -1650,8 +1650,8 @@
       "id": "agromercato",
       "card": {
         "title": "Agromercato",
-        "subtitle": "A B2B wholesale marketplace project in Sardinia. I worked on customer insights and acquisition strategy as part of an H-FARM consulting team. Project specifics under NDA.",
-        "tag": "2025–2026 · H-FARM consulting",
+        "subtitle": "A B2B wholesale marketplace for the agri-food sector. Pre-launch. Currently incubated through the H-FARM Startup Center Pre-Accelerator. Project specifics under NDA.",
+        "tag": "2025–2026 · Pre-Accelerator",
         "thumbnail_asset": "assets/agromercato/brand-01.png",
         "external_link_indicator": "agromercato.com",
         "theme": {
@@ -1663,22 +1663,34 @@
           "border_strong": "#D71920",
           "thumb_bg": "#F2EAD0",
           "highlight_ink": "#FBF6E8"
-        }
+        },
+        "highlight": [
+          {
+            "label": "PRE-LAUNCH"
+          },
+          {
+            "label": "PRE-ACCELERATOR · H-FARM"
+          }
+        ]
       },
       "interior": {
         "headline": "Designing how a wholesale market enters the digital age.",
-        "hook": "A consulting project with a Sardinian agri-food client, run through the H-FARM MSc. I joined a 5-person student team as Customer Insights. The work centered on acquisition design for a B2B wholesale platform aimed at a buyer audience that lives on WhatsApp, not in app stores. Client and project specifics under NDA.",
+        "hook": "A B2B wholesale marketplace project for the agri-food sector, currently pre-launch. The work centered on acquisition design for a buyer audience that lives on WhatsApp, not in app stores. Currently incubated through the H-FARM Startup Center Pre-Accelerator. Project specifics under NDA.",
         "sections": [
           {
             "label": "What I worked on",
-            "body": "Customer Insights inside a 5-person H-FARM student consulting team. My contribution: the acquisition mechanism — how the platform reaches a buyer audience that prefers messaging over apps. WhatsApp-first community, trusted-referral chains through early adopters, and phygital touchpoints inside the physical marketplace."
+            "body": "Acquisition design for a B2B wholesale marketplace, how the platform reaches a buyer audience that prefers messaging over apps. WhatsApp-first community, trusted-referral chains through early adopters, and phygital touchpoints inside the physical marketplace."
           },
           {
             "label": "The strategic insight",
             "body": "Cultural barrier is bigger than tech barrier. In a market where buyers already do business through voice and messaging, the move was not to push them onto a new app but to meet them inside the tool they were already using. The platform should ride on existing behavior, not fight it."
+          },
+          {
+            "label": "Where it sits now",
+            "body": "Pre-launch. Incubated through the H-FARM Startup Center Pre-Accelerator. Specifics remain under NDA until launch."
           }
         ],
-        "credits": "5-person H-FARM consulting team · My role: Customer Insights · Client and project specifics under NDA",
+        "credits": "Project pre-launch, under NDA · H-FARM Startup Center Pre-Accelerator",
         "metrics_highlight": [],
         "pull_quotes": [],
         "stack": [
@@ -1726,9 +1738,9 @@
       },
       "links": [],
       "meta": {
-        "period": "Academic year 2025–2026",
-        "role": "Customer Insights · H-FARM consulting team",
-        "team_size": "5 (H-FARM student team)",
+        "period": "2025–2026 · Pre-Accelerator",
+        "role": "Strategy · Customer Insights · Acquisition design",
+        "team_size": "—",
         "tags": [
           "B2B Marketplace",
           "Wholesale",
@@ -1752,5 +1764,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:07:44.407601+00:00"
+  "last_updated": "2026-05-24T19:09:40.404284+00:00"
 }
