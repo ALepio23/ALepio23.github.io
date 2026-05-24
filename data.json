@@ -281,6 +281,12 @@
         ],
         "embeds": [
           {
+            "kind": "video_local",
+            "src": "assets/mara/trailer.mp4",
+            "label": "MARA × H-ACK · 37s clip",
+            "caption": "Inside H-ACK by H-FARM — the first MARA challenge run live."
+          },
+          {
             "kind": "figma",
             "src": "https://embed.figma.com/deck/3GGVJnLSbSXvkKPQN2U9mP/Mara-Pitch?embed-host=share",
             "label": "Pitch deck · Figma"
@@ -1902,5 +1908,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T17:11:38.124997+00:00"
+  "last_updated": "2026-05-24T17:18:51.915362+00:00"
 }
