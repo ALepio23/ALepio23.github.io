@@ -1756,41 +1756,51 @@
         "gallery": [
           {
             "src": "assets/agromercato/iphone-a.png",
-            "alt": "Agromercato iOS app screen A",
+            "alt": "Agromercato iOS app — screen A",
             "caption": "Preordine — cart with real wholesaler products."
           },
           {
             "src": "assets/agromercato/iphone-b.png",
-            "alt": "Agromercato iOS app screen B",
+            "alt": "Agromercato iOS app — screen B",
             "caption": "Area utente — order management with state filters."
           },
           {
             "src": "assets/agromercato/iphone-c.png",
-            "alt": "Agromercato iOS app screen C",
-            "caption": "Platform UI — third screen."
+            "alt": "Agromercato iOS app — screen C",
+            "caption": "Login — wholesaler/buyer access."
           },
           {
             "src": "assets/agromercato/iphone-d.png",
-            "alt": "Agromercato iOS app screen D",
-            "caption": "Platform UI — fourth screen."
+            "alt": "Agromercato iOS app — screen D",
+            "caption": "Wholesaler dashboard — orders + statistics."
           },
           {
             "src": "assets/agromercato/iphone-e.png",
-            "alt": "Agromercato iOS app screen E",
-            "caption": "Platform UI — fifth screen."
+            "alt": "Agromercato iOS app — screen E",
+            "caption": "Wholesaler dashboard — order management view."
           },
           {
             "src": "assets/agromercato/iphone-f.png",
-            "alt": "Agromercato iOS app screen F",
-            "caption": "Platform UI — sixth screen."
-          },
-          {
-            "src": "assets/agromercato/spoki-whatsapp.png",
-            "alt": "Spoki on WhatsApp — the platform the WhatsApp-first strategy was built on",
-            "caption": "Spoki on WhatsApp — the engine behind the WhatsApp-first acquisition layer."
+            "alt": "Agromercato iOS app — screen F",
+            "caption": "Catalog — product browsing (Zucchina, Zucca, etc.)."
           }
         ],
-        "embeds": []
+        "embeds": [
+          {
+            "kind": "image",
+            "src": "assets/agromercato/team-photo.jpg",
+            "alt": "Agromercato team presenting at H-FARM",
+            "label": "At H-FARM",
+            "caption": "Presenting the work inside the H-FARM Startup Center."
+          },
+          {
+            "kind": "image",
+            "src": "assets/agromercato/spoki-whatsapp.png",
+            "alt": "Spoki on WhatsApp — the engine behind the WhatsApp-first acquisition layer",
+            "label": "The WhatsApp engine",
+            "caption": "Spoki on WhatsApp — the tooling that makes the acquisition layer concrete."
+          }
+        ]
       },
       "links": [
         {
@@ -1826,5 +1836,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T22:17:21.863011+00:00"
+  "last_updated": "2026-05-24T22:31:00.194893+00:00"
 }
