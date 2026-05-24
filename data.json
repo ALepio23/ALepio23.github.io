@@ -817,8 +817,9 @@
           "highlight_ink": "#FAFBFF"
         },
         "decor": {
-          "src": "assets/leafy/Rosemary.png",
-          "position": "bottom-right"
+          "src": "assets/leafy/mascot-gnome.jpg",
+          "position": "bottom-right",
+          "opacity": 0.95
         }
       },
       "interior": {
@@ -897,49 +898,44 @@
       },
       "assets": {
         "hero": {
-          "src": "assets/leafy/keynote-cover.jpg",
-          "alt": "Pasta Ammiscata, the Leafy team, opening slide of the project keynote"
+          "src": "assets/leafy/hero-camera.jpg",
+          "alt": "Point your phone at a plant — Leafy identifies it. The use case in one frame."
         },
         "gallery": [
           {
+            "src": "assets/leafy/illus-basil.jpg",
+            "alt": "Basil illustration",
+            "caption": "Basil — one of the plants Leafy was trained to recognize."
+          },
+          {
+            "src": "assets/leafy/illus-rose.jpg",
+            "alt": "Rose illustration",
+            "caption": "Rose — a tougher one to identify reliably (similar petals across species)."
+          },
+          {
+            "src": "assets/leafy/illus-sunflower.jpg",
+            "alt": "Sunflower illustration",
+            "caption": "Sunflower — easy win for the classifier; great for gamification rewards."
+          },
+          {
             "src": "assets/leafy/iPhone-mockup-1.png",
-            "alt": "Plant detail screen, Cactus",
-            "caption": "Plant detail screen · Cactus"
+            "alt": "Leafy iOS — onboarding screen",
+            "caption": "Onboarding: the sprout-into-leaves wordmark animation."
           },
           {
             "src": "assets/leafy/iPhone-mockup-2.png",
-            "alt": "Leafy in-app screen",
-            "caption": "App screen"
+            "alt": "Leafy iOS — scanner screen",
+            "caption": "Scanner: point camera, AI identifies, plant joins your collection."
           },
           {
             "src": "assets/leafy/iPhone-mockup-3.png",
-            "alt": "Leafy in-app screen",
-            "caption": "App screen"
+            "alt": "Leafy iOS — plant detail screen",
+            "caption": "Plant detail with hand-drawn illustration in a single coherent style."
           },
           {
             "src": "assets/leafy/LeafyAppIcon.png",
-            "alt": "Leafy app icon, the sprout mark",
-            "caption": "App icon"
-          },
-          {
-            "src": "assets/leafy/Leafy4.png",
-            "alt": "Leafy wordmark, frame 4",
-            "caption": "Wordmark · frame 4 of 4"
-          },
-          {
-            "src": "assets/leafy/Cactus.png",
-            "alt": "Cactus illustration",
-            "caption": "Cactus illustration"
-          },
-          {
-            "src": "assets/leafy/Daisy.png",
-            "alt": "Daisy illustration",
-            "caption": "Daisy illustration"
-          },
-          {
-            "src": "assets/leafy/Rosemary.png",
-            "alt": "Rosemary illustration",
-            "caption": "Rosemary illustration"
+            "alt": "Leafy app icon",
+            "caption": "App icon."
           }
         ],
         "embeds": [
@@ -1836,5 +1832,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T22:31:00.194893+00:00"
+  "last_updated": "2026-05-24T22:39:08.093369+00:00"
 }
