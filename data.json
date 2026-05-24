@@ -153,11 +153,11 @@
       },
       "interior": {
         "headline": "Beyond the CV.",
-        "hook": "The CV had a good run. But in a world where AI and transformative forces are constantly reshaping what work looks like, a list of past titles no longer tells you what someone can actually do. MARA was born from that disconnect — a talent acquisition platform where companies publish real challenges, students compete to solve them in focused sprints, and the best solution wins. No CVs. Just proof of work.",
+        "hook": "The CV had a good run. But in a world where AI and transformative forces are constantly reshaping what work looks like, a list of past titles no longer tells you what someone can actually do. MARA was born from that disconnect. A talent acquisition platform where companies publish real challenges, students compete to solve them in focused sprints, and the best solution wins. No CVs. Just proof of work.",
         "sections": [
           {
             "label": "The origin",
-            "body": "Four H-FARM College master's students — Michele Gualano, Alessandro Della Rocca, Rita Zhubi, and Alessandro Pio Alvigi — were two months into the program when the pattern became impossible to ignore. Even in a place built for entrepreneurship, the disconnect was a blocker. The person sitting next to you might have the next big idea; you might be exactly who they need to make it real. But there was no bridge.\n\nThe pivot moment came at H-FARM's Career Day — already different from any university fair we'd attended. Students weren't handing out CVs. They were in open labs, working alongside companies, solving problems in real time. That was it. Not another job board. A platform that brings companies, students, and universities together around a shared challenge. Already inside the H-FARM Startup Center Pre-Accelerator, we had the space, mentorship, and momentum to make it real."
+            "body": "Four H-FARM College master's students (Michele Gualano, Alessandro Della Rocca, Rita Zhubi, Alessandro Pio Alvigi) were two months into the program when the pattern became impossible to ignore. Even in a place built for entrepreneurship, the disconnect was a blocker. The person sitting next to you might have the next big idea; you might be exactly who they need to make it real. But there was no bridge.\n\nThe pivot moment came at H-FARM's Career Day, already different from any university fair we'd attended. Students weren't handing out CVs. They were in open labs, working alongside companies, solving problems in real time. That was it. Not another job board. A platform that brings companies, students, and universities together around a shared challenge. Already inside the H-FARM Startup Center Pre-Accelerator, we had the space, mentorship, and momentum to make it real."
           },
           {
             "label": "How MARA works",
@@ -173,7 +173,7 @@
           },
           {
             "label": "The first real company challenge",
-            "body": "Shortly after H-ACK, the first real corporate challenge landed on MARA: a global hospitality group chose H-FARM College students to tackle a complex brief about a new generation of travelers — a target that blurs the lines between work, life, and play. H-FARM College is running the challenge. MARA is the platform powering it. The winning team earns a seat alongside the company's leadership at a top-tier industry event. Not a case study. A real brief, from a real company, with real stakes."
+            "body": "Shortly after H-ACK, the first real corporate challenge landed on MARA: a global hospitality group chose H-FARM College students to tackle a complex brief about a new generation of travelers who blur the lines between work, life, and play. H-FARM College is running the challenge. MARA is the platform powering it. The winning team earns a seat alongside the company's leadership at a top-tier industry event. Not a case study. A real brief, from a real company, with real stakes."
           },
           {
             "label": "What is live",
@@ -1834,5 +1834,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T18:37:34.035038+00:00"
+  "last_updated": "2026-05-24T18:46:53.616457+00:00"
 }
