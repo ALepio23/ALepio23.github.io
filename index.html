@@ -640,6 +640,62 @@
       align-items: center;
       justify-content: center;
     }
+
+    /* === Terra Stage: satellite-viewport HUD frame on the hero === */
+    .modal-inner[data-piece-id="terra-stage"] .modal-hero {
+      background-color: #0a1124;
+      background-image:
+        linear-gradient(#f08a36, #f08a36), linear-gradient(#f08a36, #f08a36),
+        linear-gradient(#f08a36, #f08a36), linear-gradient(#f08a36, #f08a36),
+        linear-gradient(#f08a36, #f08a36), linear-gradient(#f08a36, #f08a36),
+        linear-gradient(#f08a36, #f08a36), linear-gradient(#f08a36, #f08a36);
+      background-size:
+        38px 3px, 3px 38px,
+        38px 3px, 3px 38px,
+        38px 3px, 3px 38px,
+        38px 3px, 3px 38px;
+      background-position:
+        0 0, 0 0,
+        100% 0, 100% 0,
+        0 100%, 0 100%,
+        100% 100%, 100% 100%;
+      background-repeat: no-repeat;
+      padding: 16px;
+      border-radius: 4px;
+      border: 1px solid rgba(240, 138, 54, 0.28);
+      box-shadow: inset 0 0 60px rgba(240, 138, 54, 0.05);
+      position: relative;
+      overflow: visible;
+    }
+    .modal-inner[data-piece-id="terra-stage"] .modal-hero img {
+      border-radius: 2px;
+    }
+    .modal-inner[data-piece-id="terra-stage"] .modal-hero::before {
+      content: 'CASSINI · COPERNICUS · GALILEO';
+      position: absolute;
+      top: -10px;
+      left: 28px;
+      font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+      font-size: 9px;
+      letter-spacing: 0.18em;
+      color: #f08a36;
+      background: var(--piece-bg, #ffffff);
+      padding: 0 8px;
+      pointer-events: none;
+    }
+    .modal-inner[data-piece-id="terra-stage"] .modal-hero::after {
+      content: '◉ LIVE FEED';
+      position: absolute;
+      bottom: -10px;
+      right: 28px;
+      font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+      font-size: 9px;
+      letter-spacing: 0.18em;
+      color: #f08a36;
+      background: var(--piece-bg, #ffffff);
+      padding: 0 8px;
+      pointer-events: none;
+    }
     .modal-hero img {
       max-width: 100%;
       max-height: 70vh;
@@ -1085,7 +1141,7 @@
       const p = (data().pieces || []).find(x => x.id === id);
       if (!p) return;
       const modal = document.getElementById('modal');
-      modal.innerHTML = `<div class="modal-inner" id="modal-inner">${modalHTML(p)}</div>`;
+      modal.innerHTML = `<div class="modal-inner" id="modal-inner" data-piece-id="${esc(p.id)}">${modalHTML(p)}</div>`;
       const inner = document.getElementById('modal-inner');
       applyVisualIdentity(inner, p.visual_identity || {});
       // tone-aware close button inversion
