@@ -366,12 +366,7 @@
           }
         ],
         "credits": "Team 2 · Slow Landscape · H-FARM College × Università di Foggia · Client: Apulia Hotel Le Vigne al Castello · Andria",
-        "metrics_highlight": [
-          "€205 to €300 · package price range",
-          "5 weeks · brief to pitch",
-          "4 demo videos · YouTube Shorts",
-          "Midjourney + LLM · production stack"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "We're not fighting the sea in August. We're winning when the sea slows down."
         ],
@@ -545,11 +540,7 @@
           }
         ],
         "credits": "Team: Alessandro Pio Alvigi (PM · Creative Director) · [+ teammates to confirm] · Apple Developer Academy, Naples · Incubator: IdeaSolution, Naples",
-        "metrics_highlight": [
-          "IdeaSolution · Incubator (Naples)",
-          "Apple Developer Academy · Naples",
-          "Xcode + Unity · Build stack"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "Cartoon-dark turned out to be exactly the register a gambling-awareness story needed, neither grim nor preachy."
         ],
@@ -714,12 +705,7 @@
           }
         ],
         "credits": "Team: Alessandro Pio Alvigi, Allegra Moscon (pitch lead), [+ teammates to confirm] · 10th CASSINI Hackathon Italy · H-FARM, October 2025",
-        "metrics_highlight": [
-          "48 hours · CASSINI Hackathon Italy",
-          "Copernicus Sentinel-1, 2, 5P · risk layers",
-          "Galileo · sub-meter offline positioning",
-          "October 2025 · H-FARM"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "Outdoor events break for satellite-observable reasons. We mapped those reasons."
         ],
@@ -885,11 +871,7 @@
           }
         ],
         "credits": "Team \"Pasta Ammiscata\": Alessandro Pio Alvigi (PM · Branding), Roberta Filaseta, Francesco \"Kekko\" Romeo, Can Dindar, Diego Moreno, Cinzia Ferrara · Apple Developer Academy, Naples",
-        "metrics_highlight": [
-          "Apple Developer Academy · Challenge 2",
-          "Pasta Ammiscata · 6-person crew",
-          "SwiftUI + Vision API · Build stack"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "Gamification only works if the underlying activity is already a tiny bit interesting. Plants are. The game just lowers the friction to start."
         ],
@@ -1049,10 +1031,7 @@
           }
         ],
         "credits": "Studio: 4Raw City Sound Studio · Naples",
-        "metrics_highlight": [
-          "4Raw City Sound Studio · Naples",
-          "12 months · 2024 cycle"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "Brand positioning is a translation problem more than a creation problem."
         ],
@@ -1162,11 +1141,7 @@
           }
         ],
         "credits": "Solo build · Alessandro Pio Alvigi · Apple Developer Academy, Naples · Dec 2024",
-        "metrics_highlight": [
-          "Create ML · Training environment",
-          "CoreML · On-device inference",
-          "Apple Developer Academy · Naples"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [],
         "stack": [
           {
@@ -1277,12 +1252,7 @@
           }
         ],
         "credits": "Hosted by MARA · Client: The Lux Collective (Mauritius) · the CEO · H-FARM College · Student team: Majilis Group",
-        "metrics_highlight": [
-          "5 weeks · 18 Mar to 21 Apr 2026",
-          "WTM London · CEO + CCO lunch (prize)",
-          "18 resorts + 16 in pipeline · client scale",
-          "100% IP transfer · contractual term"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "Every brand built the hardware of social space. None built the software."
         ],
@@ -1435,11 +1405,7 @@
           }
         ],
         "credits": "Team \"Daiquiri\" · Alessandro Pio Alvigi (Communication · Creative Director) · [+ teammates to confirm] · Apple Developer Academy, Naples",
-        "metrics_highlight": [
-          "Apple Developer Academy · Naples",
-          "Bluetooth Low Energy · Mesh protocol",
-          "Xcode + Swift · Build stack"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "When there is no network, treat the other phones in the area as the network."
         ],
@@ -1581,12 +1547,7 @@
           }
         ],
         "credits": "Builder: Alessandro Pio Alvigi · Co-builder: Rita · QA team: Asso (French Bulldog) and Rita's dog · H-FARM MSc Strategic Plan v6 (April 2026)",
-        "metrics_highlight": [
-          "9 cycles · Claude-assisted MVP build",
-          "600,000 · first-time owners/year in Italy",
-          "€17.1M · serviceable obtainable market",
-          "3 minutes · vet-invoice claim (was 30–60 days)"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "Each design choice that survived the nine prototype cycles is a choice I would have wanted to find as a first-time owner."
         ],
@@ -1767,12 +1728,7 @@
           }
         ],
         "credits": "Client: Abilita Srls (Sardinia, founded 2018) · 5-person H-FARM consulting team · My role: Customer Insights",
-        "metrics_highlight": [
-          "100 buyers surveyed · 50% prefer WhatsApp",
-          "5 pilot wholesalers · pre-launch",
-          "70 wholesalers · Sestu market scale",
-          "PNRR · NextGenerationEU funding"
-        ],
+        "metrics_highlight": [],
         "pull_quotes": [
           "The bottleneck was not technology. It was the path through which adoption travels.",
           "For wholesalers who live on WhatsApp, the sales rep should live there too."
@@ -1904,5 +1860,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T17:54:39.543131+00:00"
+  "last_updated": "2026-05-24T17:56:37.887697+00:00"
 }
