@@ -1649,8 +1649,8 @@
     {
       "id": "agromercato",
       "card": {
-        "title": "Agromercato.com",
-        "subtitle": "A phygital B2B marketplace for the wholesale fruit and vegetable market of Sestu, Sardinia. I designed the acquisition mechanism for the H-FARM consulting team working on it: WhatsApp-first community plus phygital QR touchpoints at the market entrance.",
+        "title": "Agromercato",
+        "subtitle": "A B2B wholesale marketplace project in Sardinia. I worked on customer insights and acquisition strategy as part of an H-FARM consulting team. Project specifics under NDA.",
         "tag": "2025–2026 · H-FARM consulting",
         "thumbnail_asset": "assets/agromercato/brand-01.png",
         "external_link_indicator": "agromercato.com",
@@ -1663,69 +1663,40 @@
           "border_strong": "#D71920",
           "thumb_bg": "#F2EAD0",
           "highlight_ink": "#FBF6E8"
-        },
-        "highlight": {
-          "label": "LIVE · pre-launch"
         }
       },
       "interior": {
-        "headline": "The wholesale market without borders, with a sales rep inside WhatsApp.",
-        "hook": "Agromercato.com is the digital twin of Mercato Ortofrutticolo di Sestu, Sardinia's wholesale fruit and vegetable market, opening at 4am to roughly 70 wholesalers. The client is Abilita Srls, a Sardinian agri-food services company founded in 2018. I joined a 5-person H-FARM consulting team for the MSc course Digital Strategies and Marketing (January 2026). My deliverable: the acquisition mechanism that turns five pilot wholesalers into a trusted media channel for the platform.",
+        "headline": "Designing how a wholesale market enters the digital age.",
+        "hook": "A consulting project with a Sardinian agri-food client, run through the H-FARM MSc. I joined a 5-person student team as Customer Insights. The work centered on acquisition design for a B2B wholesale platform aimed at a buyer audience that lives on WhatsApp, not in app stores. Client and project specifics under NDA.",
         "sections": [
           {
-            "label": "The cultural insight",
-            "body": "We surveyed 100 active food businesses across the Cagliari metro area. Half preferred WhatsApp as the primary channel for delivery coordination. Only 36.6% were open to a mobile app. Two-thirds were willing to join a digital platform, but only if it spoke their language. The bottleneck was not technology. It was the path through which adoption travels."
+            "label": "What I worked on",
+            "body": "Customer Insights inside a 5-person H-FARM student consulting team. My contribution: the acquisition mechanism — how the platform reaches a buyer audience that prefers messaging over apps. WhatsApp-first community, trusted-referral chains through early adopters, and phygital touchpoints inside the physical marketplace."
           },
           {
-            "label": "My deliverable: the acquisition mechanism",
-            "body": "WhatsApp-first community as the front door. Three-channel architecture: announcements, chat, help desk with AI plus human fallback. Five pilot wholesalers invite their existing retailer client lists, trust transfer, not paid acquisition. Phygital QR touchpoints at the market entrance and partner stalls. Assisted onboarding with video tutorials, an onboarding agent, and a concierge first order for low-digital-literacy operators."
-          },
-          {
-            "label": "The AI agent on WhatsApp",
-            "body": "Layer two of the acquisition mechanism: an AI agent that lives inside WhatsApp and acts as a commercial representative for the platform. Built on Spoki (an Italian WhatsApp Business automation platform powered by ChatGPT). The agent greets a new wholesale buyer, qualifies the order, generates payment links, manages customer care, escalates to a human when the conversation needs it. For an audience that overwhelmingly prefers WhatsApp over apps (50% of surveyed buyers, vs 36.6% open to mobile apps), this turns the most familiar tool in the operator's pocket into a 24/7 sales channel."
-          },
-          {
-            "label": "The platform behind it",
-            "body": "Multi-vendor B2B e-commerce with verified VAT signup. Progressive Web App on the buyer side, native app later. IT partner: NOA Solution. Training partner: E-Commerce School. PNRR / NextGenerationEU / OnFoods funding. Operational launch January 2026, public release September/October 2026. Targets for the pilot phase (Feb–May 2026): 100 active buyers, €75,000 revenue, 500 orders."
-          },
-          {
-            "label": "What this is evidence of",
-            "body": "Translating a strategic insight, cultural barrier is bigger than tech barrier, into a specific tactical mechanism. Founders almost always pick the channel they already understand. The job was to design backward from where the buyer already lives, which in this market is a WhatsApp group, not an app store."
+            "label": "The strategic insight",
+            "body": "Cultural barrier is bigger than tech barrier. In a market where buyers already do business through voice and messaging, the move was not to push them onto a new app but to meet them inside the tool they were already using. The platform should ride on existing behavior, not fight it."
           }
         ],
-        "credits": "Client: Abilita Srls (Sardinia, founded 2018) · 5-person H-FARM consulting team · My role: Customer Insights",
+        "credits": "5-person H-FARM consulting team · My role: Customer Insights · Client and project specifics under NDA",
         "metrics_highlight": [],
         "pull_quotes": [],
         "stack": [
           {
-            "label": "Spoki",
-            "category": "platform",
-            "logo_asset": "assets/logos/spoki.png"
-          },
-          {
-            "label": "WhatsApp Business",
-            "category": "platform",
-            "logo_asset": "assets/logos/whatsapp.svg"
-          },
-          {
             "label": "Claude",
-            "category": "ai",
-            "logo_asset": "assets/logos/claude.svg"
+            "category": "ai"
           },
           {
             "label": "OpenAI",
-            "category": "ai",
-            "logo_asset": "assets/logos/openai.png"
+            "category": "ai"
           },
           {
             "label": "Perplexity",
-            "category": "ai",
-            "logo_asset": "assets/logos/perplexity.svg"
+            "category": "ai"
           },
           {
             "label": "Figma",
-            "category": "tool",
-            "logo_asset": "assets/logos/figma.png"
+            "category": "design"
           }
         ]
       },
@@ -1750,55 +1721,13 @@
           "src": "assets/agromercato/team-photo.jpg",
           "alt": "The Agromercato team presenting at H-FARM"
         },
-        "gallery": [
-          {
-            "src": "assets/agromercato/wordmark.png",
-            "alt": "Agromercato.com wordmark, agro (green) + mercato.com (red), brushed hand-drawn style",
-            "caption": "Agromercato.com wordmark (external brand agency)"
-          },
-          {
-            "src": "assets/agromercato/spoki-whatsapp.png",
-            "alt": "Spoki + WhatsApp powered by ChatGPT, sales rep agent on WhatsApp Business with chat management, payment links, customer service automation",
-            "caption": "The Spoki + WhatsApp + ChatGPT integration: AI agent as commercial representative inside the buyer's most-used channel"
-          },
-          {
-            "src": "assets/agromercato/brand-09.png",
-            "alt": "Brand book, second-person positioning copy (Pintus Comunicazione)",
-            "caption": "\"Tu sei la Sardegna che abbraccia il mondo\", brand voice work"
-          },
-          {
-            "src": "assets/agromercato/brand-13.png",
-            "alt": "Brand book, four brand pillars",
-            "caption": "Ponte, vetrina, festival, amplificatore, brand pillars"
-          },
-          {
-            "src": "assets/agromercato/brand-03.png",
-            "alt": "Brand book, Dal Mercato Tradizionale narrative",
-            "caption": "The thesis: traditional market becomes digital ecosystem"
-          },
-          {
-            "src": "assets/agromercato/brand-05.png",
-            "alt": "Brand book, TU CHI SEI? positioning page",
-            "caption": "\"Agromercato.com, tu chi sei?\", positioning prompt"
-          },
-          {
-            "src": "assets/agromercato/brand-01.png",
-            "alt": "Brand book cover (external brand agency)",
-            "caption": "Brand book, 2025"
-          }
-        ],
+        "gallery": [],
         "embeds": []
       },
-      "links": [
-        {
-          "label": "agromercato.com",
-          "url": "https://www.agromercato.com",
-          "primary": true
-        }
-      ],
+      "links": [],
       "meta": {
-        "period": "Academic year 2025–2026 · submitted January 2026",
-        "role": "Customer Insights (H-FARM consulting team for Abilita Srls)",
+        "period": "Academic year 2025–2026",
+        "role": "Customer Insights · H-FARM consulting team",
         "team_size": "5 (H-FARM student team)",
         "tags": [
           "B2B Marketplace",
@@ -1823,5 +1752,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:02:06.126949+00:00"
+  "last_updated": "2026-05-24T19:07:44.407601+00:00"
 }
