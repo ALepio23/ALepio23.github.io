@@ -123,7 +123,7 @@
       "id": "mara",
       "card": {
         "title": "MARA",
-        "subtitle": "MARA is a challenge-based platform to acquire talent, building the new standard of talent acquisition. I co-founded it with three teammates inside the H-FARM ecosystem. Three challenges shipped, 250 students onboarded. Live on marachallenge.com.",
+        "subtitle": "MARA is a challenge-based platform to acquire talent, building the new standard of talent acquisition. I co-founded it with three teammates inside the H-FARM ecosystem. Three challenges shipped, 200+ students onboarded. Live on marachallenge.com.",
         "tag": "2025 → present · MARA",
         "thumbnail_asset": "assets/mara/logo.svg",
         "external_link_indicator": "Pre-accelerator",
@@ -208,11 +208,6 @@
             "logo_asset": "assets/logos/gemini.svg"
           },
           {
-            "label": "Perplexity",
-            "category": "ai",
-            "logo_asset": "assets/logos/perplexity.svg"
-          },
-          {
             "label": "Next.js",
             "category": "framework",
             "logo_asset": "assets/logos/nextjs.svg"
@@ -226,11 +221,6 @@
             "label": "Polygon SBT",
             "category": "platform",
             "logo_asset": "assets/logos/polygon.svg"
-          },
-          {
-            "label": "n8n",
-            "category": "platform",
-            "logo_asset": "assets/logos/n8n.svg"
           }
         ]
       },
@@ -313,7 +303,7 @@
       ],
       "meta": {
         "period": "2025 to present",
-        "role": "Co-founder · Marketing Specialist",
+        "role": "Co-founder",
         "team_size": "4 (founding team)",
         "tags": [
           "Founding",
@@ -335,18 +325,18 @@
       "id": "impact-puglia",
       "card": {
         "title": "Slow Landscape",
-        "subtitle": "An AI-driven de-seasonalization campaign for Apulia Hotel Le Vigne al Castello (Andria, near Castel del Monte). Built around Federico II, a Midjourney-generated digital host inspired by Frederick II of Swabia, the medieval emperor who commissioned the castle.",
+        "subtitle": "An AI-driven de-seasonalization campaign for Le Vigne al Castello (Andria, near Castel del Monte). Built around Federico II, a Midjourney-generated digital host inspired by Frederick II of Swabia, the medieval emperor who commissioned the castle.",
         "tag": "2026 · H-FARM × UniFG",
         "thumbnail_asset": "assets/impact-puglia/federico-frame.jpg",
         "external_link_indicator": "Real client brief"
       },
       "interior": {
-        "headline": "An off-season campaign for a small Puglia winery, built around a 13th-century emperor.",
-        "hook": "Five-week brief inside the H-FARM College × Università di Foggia program. The client: Le Vigne al Castello, a boutique wine resort five kilometres from Castel del Monte. The problem: Puglia tourism collapses outside July and August. Our move: build Federico II, a Midjourney-generated digital host inspired by Frederick II of Swabia, and design three off-season commercial packages around him.",
+        "headline": "An off-season campaign for a small Puglia hotel, built around a 13th-century emperor.",
+        "hook": "Five-week brief inside the H-FARM College × Università di Foggia program. The client: Le Vigne al Castello, a new venture in Puglia, five kilometres from Castel del Monte. The problem: Puglia tourism collapses outside July and August. Our move: build Federico II, a Midjourney-generated digital host inspired by Frederick II of Swabia, and design three off-season commercial packages around him.",
         "sections": [
           {
             "label": "The seasonal problem",
-            "body": "Puglia 2024: arrivals up 10.6%, overnight stays up 9.7%, but the curve is hyper-polarized. July and August spike, the winter goes flat. Andria registered 24,819 arrivals and 52,158 overnight stays in 2024. The hotel runs high fixed costs against this curve."
+            "body": "Puglia tourism is hyper-polarized: July and August spike, winter goes flat. Andria, the town that hosts the property, registered 24,819 arrivals and 52,158 overnight stays in 2024. The hotel runs high fixed costs against this curve."
           },
           {
             "label": "Federico II as digital host",
@@ -380,11 +370,6 @@
             "label": "Midjourney",
             "category": "ai",
             "logo_asset": "assets/logos/midjourney.png"
-          },
-          {
-            "label": "Sora",
-            "category": "ai",
-            "logo_asset": "assets/logos/openai.png"
           },
           {
             "label": "DaVinci Resolve",
@@ -528,7 +513,7 @@
           },
           {
             "label": "Build",
-            "body": "Unity, mobile-first. Custom character design, cartoon-dark environments (silhouette landscapes, drifting storm clouds, broken letterforms standing in for the words of addiction), original soundtrack, prototyped against real playtest sessions across the Academy cycle. Visual and sound identity built in-house to keep a tight, recognizable feel from menu to last level."
+            "body": "Mobile-first iOS build. Custom character design, cartoon-dark environments (silhouette landscapes, storm-cloud backdrops), original soundtrack, prototyped against real playtest sessions across the Academy cycle. Visual and sound identity built in-house to keep a tight, recognizable feel from menu to last level."
           },
           {
             "label": "Outcome",
@@ -549,11 +534,6 @@
             "label": "Keynote",
             "category": "tool",
             "logo_asset": "assets/logos/keynote.png"
-          },
-          {
-            "label": "Unity",
-            "category": "framework",
-            "logo_asset": "assets/logos/unity.png"
           },
           {
             "label": "Xcode",
@@ -685,7 +665,7 @@
       },
       "interior": {
         "headline": "Event-risk maps from space, built in 48 hours at CASSINI.",
-        "hook": "TerraStage is the entry my team built at CASSINI Hackathon Italy in October 2025: a B2B platform that gives event hosts and attendees risk intelligence derived from Copernicus and Galileo satellite data. Two phases. The first plans the venue using SAR, NDVI, multispectral imagery. The second navigates the venue on the day, offline-first, using Galileo positioning.",
+        "hook": "TerraStage is the entry my team built at the CASSINI Hackathon Italy in October 2025: a B2B platform that gives event hosts and attendees risk intelligence derived from Copernicus and Galileo satellite data. Two phases. The first plans the venue using SAR, NDVI, multispectral imagery. The second navigates the venue on the day, offline-first, using Galileo positioning.",
         "sections": [
           {
             "label": "Problem",
@@ -693,18 +673,18 @@
           },
           {
             "label": "Phase 1, Copernicus Risk Map (Hosts)",
-            "body": "Before the event: pull Copernicus Sentinel-1 SAR for soil moisture and ground stability, Sentinel-2 multispectral for vegetation/NDVI risk, Sentinel-5P for atmospheric conditions. Render the site as a layered risk surface. Host plans the layout against actual ground conditions instead of generic terrain maps."
+            "body": "Before the event: pull Copernicus satellite data — soil moisture, vegetation/NDVI risk, atmospheric conditions. Render the site as a layered risk surface. The host plans the layout against actual ground conditions instead of a generic terrain map."
           },
           {
             "label": "Phase 2, Galileo Offline Map (Attendees)",
-            "body": "On the day: Galileo high-accuracy positioning works without cell data (which collapses at large gatherings). The attendee app caches the venue map locally and uses Galileo for sub-meter location on a custom CoreML routing layer trained on the venue's geometry. Crowd safety without dependence on the cell network."
+            "body": "On the day: Galileo high-accuracy positioning works without cell data (which collapses at large gatherings). The attendee app caches the venue map locally and uses Galileo for fine-grained location. Crowd safety without dependence on the cell network."
           },
           {
             "label": "Why this works",
             "body": "Proactive safety: prevent issues with space-grade data before day one. Offline-proof fan experience: guidance and reconnection even when the network drops. Evidence you can show: a dashboard and an ESG report stakeholders trust. Simple for hosts. Simple for fans. High impact, low friction."
           }
         ],
-        "credits": "Team: Alessandro Pio Alvigi, Allegra Moscon (pitch lead), [+ teammates to confirm] · 10th CASSINI Hackathon Italy · H-FARM, October 2025",
+        "credits": "Team: Alessandro Pio Alvigi, Allegra Moscon (pitch lead), [+ teammates to confirm] · CASSINI Hackathon Italy · H-FARM, October 2025",
         "metrics_highlight": [],
         "pull_quotes": [
           "Outdoor events break for satellite-observable reasons. We mapped those reasons."
@@ -1032,9 +1012,7 @@
         ],
         "credits": "Studio: 4Raw City Sound Studio · Naples",
         "metrics_highlight": [],
-        "pull_quotes": [
-          "Brand positioning is a translation problem more than a creation problem."
-        ],
+        "pull_quotes": [],
         "stack": [
           {
             "label": "Instagram",
@@ -1047,10 +1025,6 @@
           },
           {
             "label": "Premiere",
-            "category": "tool"
-          },
-          {
-            "label": "Logic Pro",
             "category": "tool"
           },
           {
@@ -1129,7 +1103,7 @@
         "sections": [
           {
             "label": "Create ML",
-            "body": "Used Create ML on macOS to train a custom emotion classifier from scratch: assemble a dataset, define the task, run training, inspect accuracy across emotion categories, debug where the model gets confused. Iterated through versions, the final model shipped is FinalEmotions3.0.mlmodel."
+            "body": "Used Create ML on macOS to train a custom emotion classifier from scratch: assemble a dataset, define the task, run training, inspect accuracy across emotion categories, debug where the model gets confused. Iterated through versions, ship the trained classifier as a CoreML model."
           },
           {
             "label": "CoreML",
@@ -1389,7 +1363,7 @@
           },
           {
             "label": "What mesh networking is, in this app",
-            "body": "iOS Multipeer Connectivity discovers nearby devices over a mix of Bluetooth Low Energy, Wi-Fi Direct, and infrastructure Wi-Fi. Each H2H instance is both client and relay. When you press the SOS button, your phone broadcasts an encrypted packet containing GPS coordinates plus a help payload. Devices in range receive it, display the alert, and re-broadcast it. The packet hops until it reaches someone with cell or Wi-Fi coverage, who relays it out to emergency contacts. Practical range per hop is ~40-80 metres outdoor, ~10-20 indoor; with three or four hops you cover a stadium, a festival field, or a remote trail crossing."
+            "body": "iOS Multipeer Connectivity discovers nearby devices over a mix of Bluetooth Low Energy, Wi-Fi Direct, and infrastructure Wi-Fi. Each H2H instance is both client and relay. When you press the SOS button, your phone broadcasts a packet with GPS coordinates and a help payload. Devices in range receive it, display the alert, and re-broadcast. The packet hops device-to-device until it reaches someone with coverage, who relays it out to emergency contacts."
           },
           {
             "label": "Privacy by design",
@@ -1516,14 +1490,14 @@
       "id": "fidus",
       "card": {
         "title": "Fidus",
-        "subtitle": "A mobile-first subscription app for first-time Italian dog owners. Training, insurance, and an AI assistant in one product. I built the MVP myself across nine Claude-assisted code generation cycles. Co-built with Rita. Origin: my own French Bulldog, Asso.",
-        "tag": "2026 · Solo build",
+        "subtitle": "A mobile-first subscription app for first-time Italian dog owners. Training, insurance, and an AI assistant in one product. I built the MVP across nine Claude-assisted code generation cycles. Co-built with Rita. Origin: my own French Bulldog, Asso.",
+        "tag": "2026",
         "thumbnail_asset": "assets/fidus/logo.png",
         "external_link_indicator": "Pitch deck"
       },
       "interior": {
         "headline": "I built this from inside the problem.",
-        "hook": "Fidus did not start from a market analysis. It started from a need that was mine, when I welcomed Asso into a life that I quickly discovered had no instructions for what came next. Around 600,000 Italians get their first puppy every year. I built the MVP myself across nine Claude-assisted iteration cycles, co-built alongside Rita with our two dogs as the first and most stubborn quality assurance team.",
+        "hook": "Fidus did not start from a market analysis. It started from a need that was mine, when I welcomed Asso into a life that I quickly discovered had no instructions for what came next. Around 600,000 Italians get their first puppy every year. I built the MVP across nine Claude-assisted iteration cycles, co-built alongside Rita with our two dogs as the first and most stubborn quality assurance team.",
         "sections": [
           {
             "label": "The problem",
@@ -1860,5 +1834,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T18:02:14.029044+00:00"
+  "last_updated": "2026-05-24T18:37:34.035038+00:00"
 }
