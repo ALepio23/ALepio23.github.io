@@ -1536,15 +1536,7 @@
         "subtitle": "A mobile-first subscription app for first-time Italian dog owners. Training, insurance, and an AI assistant in one product. I built the MVP across nine Claude-assisted code generation cycles. Co-built with Rita. Origin: my own French Bulldog, Asso.",
         "tag": "2026",
         "thumbnail_asset": "assets/fidus/logo.png",
-        "external_link_indicator": "Pitch deck",
-        "highlight": [
-          {
-            "label": "MVP"
-          },
-          {
-            "label": "9 · CLAUDE CYCLES"
-          }
-        ]
+        "external_link_indicator": "Pitch deck"
       },
       "interior": {
         "headline": "I built this from inside the problem.",
@@ -1937,5 +1929,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:24:07.763497+00:00"
+  "last_updated": "2026-05-24T23:25:33.913788+00:00"
 }
