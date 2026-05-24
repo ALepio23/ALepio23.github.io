@@ -1392,7 +1392,25 @@
         "subtitle": "A personal-safety app that works without internet. Bluetooth Low Energy mesh sends encrypted SOS + GPS to nearby members. Apple Academy, Oct 2025.",
         "tag": "2024–2025 · Apple Dev Academy",
         "thumbnail_asset": "assets/h2h/animation5.jpg",
-        "external_link_indicator": "Personal safety"
+        "external_link_indicator": "Personal safety",
+        "highlight": {
+          "label": "OFFLINE · MESH"
+        },
+        "decor": {
+          "src": "assets/h2h/sos-burst.png",
+          "position": "bottom-right",
+          "opacity": 0.65
+        },
+        "theme": {
+          "bg": "#ffffff",
+          "ink": "#0a0a0a",
+          "ink_muted": "#6a6a6a",
+          "accent": "#e3262f",
+          "border": "#ebebeb",
+          "border_strong": "#e3262f",
+          "thumb_bg": "rgba(227, 38, 47, 0.06)",
+          "highlight_ink": "#ffffff"
+        }
       },
       "interior": {
         "headline": "When the cell tower drops, the phones still talk to each other.",
@@ -1496,9 +1514,77 @@
         ],
         "embeds": [
           {
-            "kind": "pdf",
-            "src": "assets/h2h/deck.pdf",
-            "label": "Team deck"
+            "kind": "image",
+            "src": "assets/h2h/app-onboarding-iphone.png",
+            "alt": "h2h onboarding screen — 'help to be helped' on iPhone",
+            "label": "The interface",
+            "caption": "One urgent affordance. The whole UX assumes the user is already in trouble."
+          },
+          {
+            "kind": "image_carousel",
+            "label": "Team deck",
+            "items": [
+              {
+                "src": "assets/h2h/slide-01.png",
+                "alt": "H2H deck — slide 01",
+                "caption": "Slide 01"
+              },
+              {
+                "src": "assets/h2h/slide-02.png",
+                "alt": "H2H deck — slide 02",
+                "caption": "Slide 02"
+              },
+              {
+                "src": "assets/h2h/slide-03.png",
+                "alt": "H2H deck — slide 03",
+                "caption": "Slide 03"
+              },
+              {
+                "src": "assets/h2h/slide-04.png",
+                "alt": "H2H deck — slide 04",
+                "caption": "Slide 04"
+              },
+              {
+                "src": "assets/h2h/slide-05.png",
+                "alt": "H2H deck — slide 05",
+                "caption": "Slide 05"
+              },
+              {
+                "src": "assets/h2h/slide-06.png",
+                "alt": "H2H deck — slide 06",
+                "caption": "Slide 06"
+              },
+              {
+                "src": "assets/h2h/slide-07.png",
+                "alt": "H2H deck — slide 07",
+                "caption": "Slide 07"
+              },
+              {
+                "src": "assets/h2h/slide-08.png",
+                "alt": "H2H deck — slide 08",
+                "caption": "Slide 08"
+              },
+              {
+                "src": "assets/h2h/slide-09.png",
+                "alt": "H2H deck — slide 09",
+                "caption": "Slide 09"
+              },
+              {
+                "src": "assets/h2h/slide-10.png",
+                "alt": "H2H deck — slide 10",
+                "caption": "Slide 10"
+              },
+              {
+                "src": "assets/h2h/slide-11.png",
+                "alt": "H2H deck — slide 11",
+                "caption": "Slide 11"
+              },
+              {
+                "src": "assets/h2h/slide-12.png",
+                "alt": "H2H deck — slide 12",
+                "caption": "Slide 12"
+              }
+            ]
           }
         ]
       },
@@ -1632,42 +1718,41 @@
             "label": "App walkthrough",
             "items": [
               {
-                "src": "assets/fidus/app-01-landing.png",
+                "src": "assets/fidus/app-01-landing-iphone.png",
                 "alt": "Fidus iOS app — 01 Landing",
                 "caption": "Landing — \"The all in one hub for your puppy\"."
               },
               {
-                "src": "assets/fidus/app-02-onboarding.png",
+                "src": "assets/fidus/app-02-onboarding-iphone.png",
                 "alt": "Fidus iOS app — 02 Onboarding",
                 "caption": "Onboarding — breed + age, plan personalisation."
               },
               {
-                "src": "assets/fidus/app-03-dashboard.png",
+                "src": "assets/fidus/app-03-dashboard-iphone.png",
                 "alt": "Fidus iOS app — 03 Dashboard",
                 "caption": "Home — Hi, Asso! Dashboard with Health, Activity, Guide, AI Assistant tiles."
               },
               {
-                "src": "assets/fidus/app-04-daily-xp.png",
+                "src": "assets/fidus/app-04-daily-xp-iphone.png",
                 "alt": "Fidus iOS app — 04 Daily Xp",
                 "caption": "Daily Activity — gamified XP reward (45 XP today)."
               },
               {
-                "src": "assets/fidus/app-05-training.png",
+                "src": "assets/fidus/app-05-training-iphone.png",
                 "alt": "Fidus iOS app — 05 Training",
                 "caption": "Training Guide — Week 27 plan, \"Mastering \\\"Sit\\\"\" video, basic commands."
               },
               {
-                "src": "assets/fidus/app-06-ai-chat.png",
+                "src": "assets/fidus/app-06-ai-chat-iphone.png",
                 "alt": "Fidus iOS app — 06 Ai Chat",
                 "caption": "Fidus AI — real chat: \"my dog doesn't want to eat\" answered with breed-specific advice."
               },
               {
-                "src": "assets/fidus/app-07-profile.png",
+                "src": "assets/fidus/app-07-profile-iphone.png",
                 "alt": "Fidus iOS app — 07 Profile",
                 "caption": "Profile — Asso, LVL 6, 560 XP, completed goals tracked."
               }
-            ],
-            "device_frame": "iphone"
+            ]
           },
           {
             "kind": "image_carousel",
@@ -1929,5 +2014,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:25:33.913788+00:00"
+  "last_updated": "2026-05-24T23:31:49.681473+00:00"
 }
