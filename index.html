@@ -1342,6 +1342,7 @@
       const back = document.getElementById('backToGrid');
       if (back) back.classList.remove('visible');
       document.body.style.overflow = '';
+      try { window.focus(); } catch(_){}
     }
 
     function closeModal() {
@@ -1397,21 +1398,14 @@
         back.id = 'backToGrid';
         back.className = 'modal-back-to-grid';
         back.type = 'button';
-        back.setAttribute('aria-label', 'Back to grid');
-        back.innerHTML = '<span aria-hidden="true">↑</span><span>Back to grid</span>';
+        back.setAttribute('aria-label', 'Back to grid (works even when ESC is blocked)');
+        back.innerHTML = '<span aria-hidden="true">←</span><span>Back to portfolio</span>';
         document.body.appendChild(back);
         back.addEventListener('click', closeModal);
       }
-      const modal = document.getElementById('modal');
-      modal.removeEventListener('scroll', onModalScrollForBackBtn);
-      modal.addEventListener('scroll', onModalScrollForBackBtn, { passive: true });
-    }
-    function onModalScrollForBackBtn() {
-      const modal = document.getElementById('modal');
-      const back = document.getElementById('backToGrid');
-      if (!back) return;
-      if (modal.scrollTop > 500) back.classList.add('visible');
-      else back.classList.remove('visible');
+      // Always-visible when modal is open (don't wait for scroll) — this is the
+      // reliable dismiss when ESC gets eaten by a cross-origin iframe.
+      back.classList.add('visible');
     }
 
     function applyVisualIdentity(el, vi) {
@@ -1584,6 +1578,17 @@
           openLightbox(img.dataset.zoom);
         });
       });
+      // Iframe-focus countermeasure: when the user moves the mouse OUT of an iframe
+      // (or clicks anywhere in the modal outside one), return focus to the parent
+      // window so ESC reaches us instead of the iframe content.
+      modal.querySelectorAll('iframe').forEach(iframe => {
+        iframe.addEventListener('mouseleave', () => { try { window.focus(); } catch(_){} });
+      });
+      modal.addEventListener('click', (e) => {
+        if (!e.target.closest('iframe')) {
+          try { window.focus(); } catch(_){}
+        }
+      }, true);
     }
 
     function openLightbox(src) {

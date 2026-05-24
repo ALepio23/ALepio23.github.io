@@ -815,7 +815,6 @@
         "subtitle": "An iOS app that gamifies plant recognition, point your camera, the AI identifies, the game turns naming plants into a habit. Apple Academy, Challenge 2, Nov 2024.",
         "tag": "2024–2025 · Apple Dev Academy",
         "thumbnail_asset": "assets/leafy/Leafy4.png",
-        "external_link_indicator": "GitHub",
         "theme": {
           "bg": "#DEEEB6",
           "ink": "#1F3A1E",
@@ -1878,5 +1877,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T22:54:38.526969+00:00"
+  "last_updated": "2026-05-24T23:02:20.199769+00:00"
 }
