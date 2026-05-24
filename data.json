@@ -1743,9 +1743,9 @@
         },
         "gallery": [
           {
-            "src": "assets/agromercato/brand-01.png",
-            "alt": "Agromercato.com brand cover — 'L'Innovazione Digitale del Mercato'",
-            "caption": "Agromercato.com — the public brand."
+            "src": "assets/agromercato/site-screenshot.png",
+            "alt": "agromercato.com homepage — 'Il mercato di sempre, nel futuro di tutti'",
+            "caption": "agromercato.com — the live public site (since iframe embedding is server-blocked, this is a fresh capture of the homepage)."
           },
           {
             "src": "assets/agromercato/spoki-whatsapp.png",
@@ -1789,5 +1789,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T19:24:24.671449+00:00"
+  "last_updated": "2026-05-24T19:29:12.441733+00:00"
 }
