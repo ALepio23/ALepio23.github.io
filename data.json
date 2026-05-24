@@ -3,13 +3,10 @@
     "display_name": "Alessandro Pio Alvigi",
     "title": "Co-founder, MARA · MSc Digital Transformation · H-FARM",
     "photo_asset": "assets/profile.jpg",
-    "headline": "Apple Developer Academy alumni · MSc at H-FARM · Co-founding MARA · Naples to Venice.",
+    "headline": "Apple Developer Academy alumni · MSc at H-FARM · MARA co-founder",
     "about": [
-      "Bachelor in Communication, Naples (2024). Apple Developer Academy in Naples (2024–2025), Apple's only international site: an English-language, multidisciplinary cohort, where I started my AI and machine learning training early. MSc in Digital Transformation and Entrepreneurship at H-FARM (September 2025 – November 2026), where I co-founded MARA, a challenge-based platform to acquire talent, with three teammates.",
-      "Eleven shipped projects across three windows. 4Raw City Sound Studio (2024, Naples). Apple Developer Academy (2024–2025): GameBL, H2H, Leafy, EmotionPlaylist. H-FARM era (2025–2026): MARA, Impact Puglia, Lux Collective, Fidus, Agromercato, Terra Stage. MARA is the one I am putting most of my time into right now."
+      "Bachelor in Communication, Naples (2024). Apple Developer Academy in Naples (2024–2025), Apple's only international site: an English-language, multidisciplinary cohort, where I started my AI and machine learning training early. MSc in Digital Transformation and Entrepreneurship at H-FARM (September 2025 – November 2026), where I co-founded MARA, a challenge-based platform to acquire talent, with three teammates."
     ],
-    "edge_label": "What I bring",
-    "edge": "Communication-first training, applied to product. Working with AI and machine learning since 2024.",
     "links": {
       "Email": "mailto:alessandro.alvigi23@gmail.com",
       "LinkedIn": "https://linkedin.com/in/alessandropioalvigi",
@@ -140,9 +137,14 @@
           "thumb_bg": "rgba(255,255,255,0.06)",
           "highlight_ink": "#FAFBFF"
         },
-        "highlight": {
-          "label": "Pre-accelerator · H-FARM"
-        },
+        "highlight": [
+          {
+            "label": "STARTUP"
+          },
+          {
+            "label": "PRE-ACCELERATOR · H-FARM"
+          }
+        ],
         "decor": {
           "src": "assets/mara/logo-white.svg",
           "position": "top-left",
@@ -184,11 +186,10 @@
         ],
         "credits": "Co-founders: Michele Gualano · Alessandro Della Rocca · Rita Zhubi · Alessandro Pio Alvigi · marachallenge.com",
         "metrics_highlight": [
-          "H-FARM College · featured article (Apr 2026)",
-          "3 challenges · already hosted",
-          "250 students · onboarded",
-          "H-ACK Jakidale · Lux Collective · CX Napoli",
-          "MARA-2026-0043 · first SBT minted on Polygon"
+          "3 · challenges shipped",
+          "250 · students onboarded",
+          "Polygon · first SBT minted",
+          "Apr 2026 · H-FARM College feature"
         ],
         "pull_quotes": [
           "Talent is not on a résumé. Observe it in practice, before you commit.",
@@ -1373,14 +1374,9 @@
       },
       "links": [
         {
-          "label": "AI prototype (Google AI Studio)",
-          "url": "https://aistudio.google.com/apps/d93d49cc-94f5-4071-9c03-815fb1dac857?showAssistant=true&showPreview=true",
-          "primary": true
-        },
-        {
           "label": "Full presentation (PDF, 74MB)",
           "url": "assets/lux-collective/deck.pdf",
-          "primary": false
+          "primary": true
         }
       ],
       "meta": {
@@ -1738,6 +1734,9 @@
           "border_strong": "#D71920",
           "thumb_bg": "#F2EAD0",
           "highlight_ink": "#FBF6E8"
+        },
+        "highlight": {
+          "label": "LIVE · pre-launch"
         }
       },
       "interior": {
@@ -1903,5 +1902,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-23T16:13:26.653073+00:00"
+  "last_updated": "2026-05-24T17:11:38.124997+00:00"
 }

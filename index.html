@@ -384,11 +384,20 @@
       background: var(--card-thumb-bg, rgba(255,255,255,0.06));
     }
 
-    /* highlight pill (top-right corner) */
-    .card-highlight {
+    /* highlight pill (top-right corner) — can stack vertically if multiple */
+    .card-highlights {
       position: absolute;
       top: 14px;
       right: 14px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+      pointer-events: none;
+      max-width: calc(100% - 28px);
+    }
+    .card-highlight {
       background: var(--card-accent, var(--shell-ink));
       color: var(--card-highlight-ink, #fff);
       font-size: 10px;
@@ -397,9 +406,9 @@
       text-transform: uppercase;
       padding: 5px 10px;
       border-radius: 999px;
-      z-index: 2;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
       pointer-events: none;
+      white-space: nowrap;
     }
 
     /* Decorative corner asset (Leafy etc.) */
@@ -692,7 +701,7 @@
 
     .modal-metrics {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 16px;
       margin: 40px 0;
       padding: 28px;
@@ -701,15 +710,20 @@
     }
     .modal-metric {
       text-align: center;
+      min-width: 0;
     }
     .modal-metric-value {
       font-family: var(--piece-font-display, inherit);
-      font-size: 32px;
+      font-size: clamp(20px, 2.6vw, 32px);
       font-weight: 700;
       letter-spacing: -0.02em;
+      line-height: 1.15;
       color: var(--piece-accent, var(--piece-ink));
-      margin-bottom: 4px;
+      margin-bottom: 6px;
       font-variant-numeric: tabular-nums;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      hyphens: auto;
     }
     .modal-metric-label {
       font-size: 12px;
@@ -1043,8 +1057,10 @@
         themeStyle = ` style="${vars.join(';')}"`;
       }
       const themedAttr = theme ? ' data-themed="true"' : '';
-      const highlightHTML = highlight
-        ? `<div class="card-highlight">${esc(highlight.label || '')}</div>`
+      // highlight can be a single object or an array of objects (each with .label)
+      const highlights = Array.isArray(highlight) ? highlight : (highlight ? [highlight] : []);
+      const highlightHTML = highlights.length
+        ? `<div class="card-highlights">${highlights.map(h => `<div class="card-highlight">${esc(h.label || '')}</div>`).join('')}</div>`
         : '';
       const decorHTML = (decor && decor.src)
         ? `<div class="card-decor ${esc(decor.position || 'bottom-right')}" style="${decor.opacity != null ? '--decor-opacity:' + decor.opacity : ''}"><img src="${esc(decor.src)}" alt="" /></div>`
