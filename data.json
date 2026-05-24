@@ -327,7 +327,7 @@
         "title": "Slow Landscape",
         "subtitle": "An AI-driven de-seasonalization campaign for Le Vigne al Castello (Andria, near Castel del Monte). Built around Federico II, a Midjourney-generated digital host inspired by Frederick II of Swabia, the medieval emperor who commissioned the castle.",
         "tag": "2026 · H-FARM × UniFG",
-        "thumbnail_asset": "assets/impact-puglia/federico-frame.jpg",
+        "thumbnail_asset": "assets/impact-puglia/federico-restaurant.jpg",
         "external_link_indicator": "Real client brief"
       },
       "interior": {
@@ -404,29 +404,34 @@
       },
       "assets": {
         "hero": {
-          "src": "assets/impact-puglia/federico-frame.jpg",
-          "alt": "Federico II, virtual influencer for Le Vigne al Castello (medieval frame)"
+          "src": "assets/impact-puglia/federico-restaurant.jpg",
+          "alt": "Federico II inside the Le Vigne al Castello restaurant — wine cellar in background, Midjourney-generated."
         },
         "gallery": [
           {
+            "src": "assets/impact-puglia/federico-pool.jpg",
+            "alt": "Federico II at the resort pool, hooded robe — Midjourney still",
+            "caption": "Federico II as Genius Loci: the digital host moving through the hotel's wellness areas."
+          },
+          {
+            "src": "assets/impact-puglia/castel-del-monte.jpg",
+            "alt": "Castel del Monte, aerial view — UNESCO site five kilometres from the property",
+            "caption": "Castel del Monte, the 13th-century octagonal castle commissioned by Frederick II of Swabia. Five kilometres from the hotel — the historical anchor for the digital host."
+          },
+          {
             "src": "assets/impact-puglia/persona-1.png",
-            "alt": "Federico II, gastronome dinner scene",
-            "caption": "Federico II · cellar dinner frame"
+            "alt": "Federico II · cellar dinner frame",
+            "caption": "Cellar dinner narrative — “Treasures of his land.”"
           },
           {
             "src": "assets/impact-puglia/deck-05.png",
-            "alt": "Slow Landscape deck slide",
-            "caption": "Deck slide 5"
+            "alt": "Deck slide 5",
+            "caption": "Strategy deck — campaign architecture."
           },
           {
             "src": "assets/impact-puglia/deck-10.png",
-            "alt": "Slow Landscape deck slide",
-            "caption": "Deck slide 10"
-          },
-          {
-            "src": "assets/impact-puglia/deck-15.png",
-            "alt": "Slow Landscape deck slide",
-            "caption": "Deck slide 15"
+            "alt": "Deck slide 10",
+            "caption": "Strategy deck — packages and channels."
           }
         ],
         "embeds": [
@@ -570,6 +575,11 @@
           "alt": "GameBL trailer cover, distressed yellow wordmark on crumpled black paper"
         },
         "gallery": [
+          {
+            "src": "assets/gamebl/character-silhouette.jpg",
+            "alt": "Dealer silhouette — black-hooded figure with bony hand offering a dice",
+            "caption": "The cartoon-dark register the gambling-awareness story needed: a dealer-as-grim-reaper figure, drawn by hand in Keynote."
+          },
           {
             "src": "assets/gamebl/deck-01.png",
             "alt": "Landscape level, cartoon-dark scenery",
@@ -1832,5 +1842,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T22:39:08.093369+00:00"
+  "last_updated": "2026-05-24T22:40:54.705076+00:00"
 }
