@@ -1539,7 +1539,15 @@
         "subtitle": "A mobile-first subscription app for first-time Italian dog owners. Training, insurance, and an AI assistant in one product. I built the MVP across nine Claude-assisted code generation cycles. Co-built with Rita. Origin: my own French Bulldog, Asso.",
         "tag": "2026",
         "thumbnail_asset": "assets/fidus/logo.png",
-        "external_link_indicator": "Pitch deck"
+        "external_link_indicator": "Pitch deck",
+        "highlight": [
+          {
+            "label": "MVP"
+          },
+          {
+            "label": "9 · CLAUDE CYCLES"
+          }
+        ]
       },
       "interior": {
         "headline": "I built this from inside the problem.",
@@ -1628,43 +1636,7 @@
           "src": "assets/fidus/pitch-01.png",
           "alt": "Fidus cover, Veo-AI generated dog destruction scene with brand crest overlay"
         },
-        "gallery": [
-          {
-            "src": "assets/fidus/logo.png",
-            "alt": "Fidus winged-bulldog crest",
-            "caption": "Brand crest"
-          },
-          {
-            "src": "assets/fidus/pitch-03.png",
-            "alt": "Problem stats, first-time owners + anxiety",
-            "caption": "Slide 3 · problem"
-          },
-          {
-            "src": "assets/fidus/pitch-06.png",
-            "alt": "Market opportunity, TAM/SAM/SOM",
-            "caption": "Slide 6 · market opportunity"
-          },
-          {
-            "src": "assets/fidus/pitch-07.png",
-            "alt": "Solution overview",
-            "caption": "Slide 7 · solution"
-          },
-          {
-            "src": "assets/fidus/pitch-08.png",
-            "alt": "Product demo screens",
-            "caption": "Slide 8 · product demo"
-          },
-          {
-            "src": "assets/fidus/pitch-10.png",
-            "alt": "Go to market plan",
-            "caption": "Slide 10 · go to market"
-          },
-          {
-            "src": "assets/fidus/pitch-15.png",
-            "alt": "Team slide",
-            "caption": "Slide 15 · team"
-          }
-        ],
+        "gallery": [],
         "embeds": [
           {
             "kind": "image",
@@ -1674,9 +1646,50 @@
             "caption": "The landing — Fidus prototype on Google AI Studio."
           },
           {
-            "kind": "pdf",
-            "src": "assets/fidus/deck.pdf",
-            "label": "Pitch deck · 16 slides"
+            "kind": "image_carousel",
+            "label": "The pitch deck",
+            "items": [
+              {
+                "src": "assets/fidus/pitch-02.png",
+                "alt": "Fidus pitch deck — slide 02",
+                "caption": "02 — The problem: first-time owners with no instructions."
+              },
+              {
+                "src": "assets/fidus/pitch-03.png",
+                "alt": "Fidus pitch deck — slide 03",
+                "caption": "03 — The market: ~8M dogs, only 22% insured."
+              },
+              {
+                "src": "assets/fidus/pitch-06.png",
+                "alt": "Fidus pitch deck — slide 06",
+                "caption": "06 — Product surface: training + insurance + AI assistant."
+              },
+              {
+                "src": "assets/fidus/pitch-07.png",
+                "alt": "Fidus pitch deck — slide 07",
+                "caption": "07 — Killer feature: claim invoice in 3 minutes."
+              },
+              {
+                "src": "assets/fidus/pitch-08.png",
+                "alt": "Fidus pitch deck — slide 08",
+                "caption": "08 — Stack: React 19 + Supabase + Stripe + Gemini."
+              },
+              {
+                "src": "assets/fidus/pitch-10.png",
+                "alt": "Fidus pitch deck — slide 10",
+                "caption": "10 — Pricing & GTM tiers."
+              },
+              {
+                "src": "assets/fidus/pitch-12.png",
+                "alt": "Fidus pitch deck — slide 12",
+                "caption": "12 — Distribution: vet clinics + retail."
+              },
+              {
+                "src": "assets/fidus/pitch-15.png",
+                "alt": "Fidus pitch deck — slide 15",
+                "caption": "15 — Compliance posture (GDPR + IVASS + DMA)."
+              }
+            ]
           }
         ]
       },
@@ -1887,5 +1900,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:10:45.854786+00:00"
+  "last_updated": "2026-05-24T23:14:51.060050+00:00"
 }
