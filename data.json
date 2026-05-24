@@ -1093,13 +1093,10 @@
         ],
         "embeds": [
           {
-            "kind": "image",
-            "src": "https://img.youtube.com/vi/uAi_8PMfkvY/maxresdefault.jpg",
-            "alt": "Vorrei — KOLLETTIVO 824 · video thumbnail",
-            "href": "https://www.youtube.com/watch?v=uAi_8PMfkvY",
-            "overlay_label": "Watch on YouTube",
+            "kind": "video",
+            "src": "https://www.youtube-nocookie.com/embed/uAi_8PMfkvY?rel=0&modestbranding=1",
             "label": "Featured video",
-            "caption": "Vorrei by KOLLETTIVO 824. Embed disabled by the uploader — opens on YouTube."
+            "caption": "Music studio output."
           }
         ]
       },
@@ -1639,11 +1636,45 @@
         "gallery": [],
         "embeds": [
           {
-            "kind": "image",
-            "src": "assets/fidus/fidus-landing.png",
-            "alt": "Fidus landing screen — 'The perfect training for your puppy' with Vet Approved + 2,000+ Parents pills, Start Free Trial CTA",
-            "label": "Fidus landing screen",
-            "caption": "The landing — Fidus prototype on Google AI Studio."
+            "kind": "image_carousel",
+            "label": "App walkthrough",
+            "items": [
+              {
+                "src": "assets/fidus/app-01-landing.png",
+                "alt": "Fidus iOS app — 01 Landing",
+                "caption": "Landing — \"The all in one hub for your puppy\"."
+              },
+              {
+                "src": "assets/fidus/app-02-onboarding.png",
+                "alt": "Fidus iOS app — 02 Onboarding",
+                "caption": "Onboarding — breed + age, plan personalisation."
+              },
+              {
+                "src": "assets/fidus/app-03-dashboard.png",
+                "alt": "Fidus iOS app — 03 Dashboard",
+                "caption": "Home — Hi, Asso! Dashboard with Health, Activity, Guide, AI Assistant tiles."
+              },
+              {
+                "src": "assets/fidus/app-04-daily-xp.png",
+                "alt": "Fidus iOS app — 04 Daily Xp",
+                "caption": "Daily Activity — gamified XP reward (45 XP today)."
+              },
+              {
+                "src": "assets/fidus/app-05-training.png",
+                "alt": "Fidus iOS app — 05 Training",
+                "caption": "Training Guide — Week 27 plan, \"Mastering \\\"Sit\\\"\" video, basic commands."
+              },
+              {
+                "src": "assets/fidus/app-06-ai-chat.png",
+                "alt": "Fidus iOS app — 06 Ai Chat",
+                "caption": "Fidus AI — real chat: \"my dog doesn't want to eat\" answered with breed-specific advice."
+              },
+              {
+                "src": "assets/fidus/app-07-profile.png",
+                "alt": "Fidus iOS app — 07 Profile",
+                "caption": "Profile — Asso, LVL 6, 560 XP, completed goals tracked."
+              }
+            ]
           },
           {
             "kind": "image_carousel",
@@ -1900,5 +1931,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:14:51.060050+00:00"
+  "last_updated": "2026-05-24T23:19:57.201004+00:00"
 }
