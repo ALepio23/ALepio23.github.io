@@ -526,9 +526,7 @@
         ],
         "credits": "Team: Alessandro Pio Alvigi (PM · Creative Director) · [+ teammates to confirm] · Apple Developer Academy, Naples · Incubator: IdeaSolution, Naples",
         "metrics_highlight": [],
-        "pull_quotes": [
-          "Cartoon-dark turned out to be exactly the register a gambling-awareness story needed, neither grim nor preachy."
-        ],
+        "pull_quotes": [],
         "stack": [
           {
             "label": "Keynote",
@@ -686,9 +684,7 @@
         ],
         "credits": "Team: Alessandro Pio Alvigi, Allegra Moscon (pitch lead), [+ teammates to confirm] · CASSINI Hackathon Italy · H-FARM, October 2025",
         "metrics_highlight": [],
-        "pull_quotes": [
-          "Outdoor events break for satellite-observable reasons. We mapped those reasons."
-        ],
+        "pull_quotes": [],
         "stack": [
           {
             "label": "Copernicus",
@@ -852,9 +848,7 @@
         ],
         "credits": "Team \"Pasta Ammiscata\": Alessandro Pio Alvigi (PM · Branding), Roberta Filaseta, Francesco \"Kekko\" Romeo, Can Dindar, Diego Moreno, Cinzia Ferrara · Apple Developer Academy, Naples",
         "metrics_highlight": [],
-        "pull_quotes": [
-          "Gamification only works if the underlying activity is already a tiny bit interesting. Plants are. The game just lowers the friction to start."
-        ],
+        "pull_quotes": [],
         "stack": [
           {
             "label": "Create ML",
@@ -1380,9 +1374,7 @@
         ],
         "credits": "Team \"Daiquiri\" · Alessandro Pio Alvigi (Communication · Creative Director) · [+ teammates to confirm] · Apple Developer Academy, Naples",
         "metrics_highlight": [],
-        "pull_quotes": [
-          "When there is no network, treat the other phones in the area as the network."
-        ],
+        "pull_quotes": [],
         "stack": [
           {
             "label": "Multipeer Connectivity",
@@ -1703,10 +1695,7 @@
         ],
         "credits": "Client: Abilita Srls (Sardinia, founded 2018) · 5-person H-FARM consulting team · My role: Customer Insights",
         "metrics_highlight": [],
-        "pull_quotes": [
-          "The bottleneck was not technology. It was the path through which adoption travels.",
-          "For wholesalers who live on WhatsApp, the sales rep should live there too."
-        ],
+        "pull_quotes": [],
         "stack": [
           {
             "label": "Spoki",
@@ -1834,5 +1823,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T18:46:53.616457+00:00"
+  "last_updated": "2026-05-24T19:02:06.126949+00:00"
 }
