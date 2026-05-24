@@ -875,6 +875,35 @@
       display: block;
       border: 1px solid var(--piece-border, rgba(0,0,0,0.08));
     }
+    .modal-embed-image-link {
+      position: relative;
+      display: block;
+      text-decoration: none;
+    }
+    .modal-embed-image-link img {
+      transition: opacity 0.2s ease;
+    }
+    .modal-embed-image-link:hover img { opacity: 0.92; }
+    .image-play-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.78);
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      pointer-events: none;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
+    }
+    .image-play-overlay::before {
+      content: '▶ ';
+      margin-right: 4px;
+    }
 
     /* === Generic phone-screenshot carousel (reusable across pieces) === */
     .phone-carousel {
@@ -1485,7 +1514,11 @@
           return `<div class="modal-embed">${labelHTML}<iframe src="${esc(e.src)}" allowfullscreen></iframe>${captionHTML}</div>`;
         }
         if (e.kind === 'image') {
-          return `<div class="modal-embed modal-embed-image">${labelHTML}<img src="${esc(e.src)}" alt="${esc(e.alt || '')}" />${captionHTML}</div>`;
+          const inner = `<img src="${esc(e.src)}" alt="${esc(e.alt || '')}" />`;
+          const wrapped = e.href
+            ? `<a href="${esc(e.href)}" target="_blank" rel="noopener" class="modal-embed-image-link">${inner}${e.overlay_label ? `<span class="image-play-overlay">${esc(e.overlay_label)}</span>` : ''}</a>`
+            : inner;
+          return `<div class="modal-embed modal-embed-image">${labelHTML}${wrapped}${captionHTML}</div>`;
         }
         if (e.kind === 'image_carousel') {
           const items = (e.items || []).map(it => `

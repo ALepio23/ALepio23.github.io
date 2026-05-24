@@ -1093,10 +1093,13 @@
         ],
         "embeds": [
           {
-            "kind": "video",
-            "src": "https://www.youtube-nocookie.com/embed/uAi_8PMfkvY?rel=0&modestbranding=1",
+            "kind": "image",
+            "src": "https://img.youtube.com/vi/uAi_8PMfkvY/maxresdefault.jpg",
+            "alt": "Vorrei — KOLLETTIVO 824 · video thumbnail",
+            "href": "https://www.youtube.com/watch?v=uAi_8PMfkvY",
+            "overlay_label": "Watch on YouTube",
             "label": "Featured video",
-            "caption": "Music studio output."
+            "caption": "Vorrei by KOLLETTIVO 824. Embed disabled by the uploader — opens on YouTube."
           }
         ]
       },
@@ -1877,5 +1880,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:02:20.199769+00:00"
+  "last_updated": "2026-05-24T23:06:53.177394+00:00"
 }
