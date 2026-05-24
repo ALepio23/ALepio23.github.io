@@ -1667,6 +1667,13 @@
         ],
         "embeds": [
           {
+            "kind": "image",
+            "src": "assets/fidus/fidus-landing.png",
+            "alt": "Fidus landing screen — 'The perfect training for your puppy' with Vet Approved + 2,000+ Parents pills, Start Free Trial CTA",
+            "label": "Fidus landing screen",
+            "caption": "The landing — Fidus prototype on Google AI Studio."
+          },
+          {
             "kind": "pdf",
             "src": "assets/fidus/deck.pdf",
             "label": "Pitch deck · 16 slides"
@@ -1880,5 +1887,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T23:06:53.177394+00:00"
+  "last_updated": "2026-05-24T23:10:45.854786+00:00"
 }
