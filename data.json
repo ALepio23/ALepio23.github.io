@@ -994,7 +994,7 @@
         "title": "4Raw City Sound Studio",
         "subtitle": "Led digital strategy for artists and emerging brands at a Naples-rooted music studio across 2024.",
         "tag": "2024 · Naples",
-        "thumbnail_asset": "assets/4raw/cover.jpg",
+        "thumbnail_asset": "assets/4raw/shoot-editorial.jpg",
         "external_link_indicator": "Studio"
       },
       "interior": {
@@ -1008,6 +1008,10 @@
           {
             "label": "Approach",
             "body": "Built each artist's voice from their actual material, not a template laid over them. Coordinated photo shoots, produced and edited multimedia, contributed to creative direction. The studio is a place; the work was making sure each artist had their own."
+          },
+          {
+            "label": "A piece of evidence",
+            "body": "Organised an editorial shoot at 4Raw for an independent designer's piece — a denim jacket with a transparent, waxed PVC back panel. Cast the model, set the styling around a Naples-football jersey worn underneath, built a ritual-props composition (candle, tarot card, wine) for the editorial frames. The whole exercise was the studio's day-to-day in one brief: translate someone else's object into an image that earns its own audience."
           },
           {
             "label": "Lesson",
@@ -1054,10 +1058,26 @@
       },
       "assets": {
         "hero": {
-          "src": "assets/4raw/cover.jpg",
-          "alt": "4Raw City Sound Studio, featured video cover"
+          "src": "assets/4raw/shoot-editorial.jpg",
+          "alt": "Editorial shoot organised at 4Raw — denim jacket with transparent PVC back, candle and tarot iconography composition"
         },
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "assets/4raw/shoot-testaverde.jpg",
+            "alt": "Denim jacket with transparent waxed PVC back panel revealing a TESTAVERDE 16 football jersey",
+            "caption": "The jacket — denim shell, transparent waxed back, TESTAVERDE 16 jersey worn underneath."
+          },
+          {
+            "src": "assets/4raw/shoot-back.jpg",
+            "alt": "Model wearing the jacket with bare back visible through the PVC",
+            "caption": "The reveal — gothic-script tattoos staying readable through the waxed back."
+          },
+          {
+            "src": "assets/4raw/shoot-editorial.jpg",
+            "alt": "Editorial shot with candle, tarot card, glass of wine in foreground",
+            "caption": "The editorial frame — ritual props in the foreground, garment as object of devotion."
+          }
+        ],
         "embeds": [
           {
             "kind": "video",
@@ -1842,5 +1862,5 @@
     "primary_count": 10,
     "secondary_count": 1
   },
-  "last_updated": "2026-05-24T22:40:54.705076+00:00"
+  "last_updated": "2026-05-24T22:46:27.656240+00:00"
 }
